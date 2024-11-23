@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "fstream": "cpp",
+        "queue": "cpp",
+        "stdexcept": "cpp",
+        "iomanip": "cpp",
+        "cmath": "cpp",
+        "*.tcc": "cpp",
+        "new": "cpp"
+    }
+}
