@@ -9,6 +9,8 @@
         "iomanip": "cpp",
         "cmath": "cpp",
         "*.tcc": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "system_error": "cpp",
+        "ostream": "cpp"
     }
 }

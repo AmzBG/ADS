@@ -1,7 +1,8 @@
 #include "Account.h"
 
 // Constructor
-Account::Account() : accountNumber(0), balance(0.0), description("") {}
+Account::Account() 
+    : accountNumber(0), balance(0.0), description("") {}
 
 Account::Account(int number, const std::string &desc, double bal)
     : accountNumber(number), description(desc), balance(bal) {}
@@ -23,40 +24,35 @@ const vector<Transaction>& Account::getTransactions() const {
     return transactions;
 }
 
-// Add a transaction to the max-heap
 void Account::addTransaction(const Transaction &transaction) {
-    transactions.push_back(transaction);  // Add transaction to the max-heap
-   if (transaction.getType() == 'C') {
-            updateBalance(-transaction.getAmount());
-    }
-    else{
-     updateBalance(transaction.getAmount());
-    }
+    transactions.push_back(transaction);  
 }
 
-Transaction Account::removeTransaction(int id) {
-    // Iterate through the transactions to find the one with the matching id
-    for (auto it = transactions.begin(); it != transactions.end(); ++it) {
+void Account::removeTransaction(int id) {
+    for (auto it = transactions.begin(); it != transactions.end(); it++) {
         if (it->getId() == id) {
-            // Transaction found, now remove it
-            Transaction txn = *it;  // Copy the transaction to return
-            transactions.erase(it);  // Erase the transaction from the vector
-    if (txn.getType() == 'D') {
-            updateBalance(-txn.getAmount());
-    }
-    else{
-     updateBalance(txn.getAmount());
-    }
-            return txn;
+            transactions.erase(it);
+            cout << "Transaction successfully removed!!\n";
+            return;
         }
     }
+    cerr << "Transaction not found!!\n";
+}
 
-    // If no matching transaction was found
-    throw std::runtime_error("Transaction with the specified ID not found!");
+const Transaction* Account::findTransaction(const int transactionID) const{
+    for(auto & trans : transactions) {
+        if (trans.getId() == transactionID)
+            return &trans;
+    }
+    return nullptr;
 }
 
 void Account::updateBalance(double amount) {
-        balance += amount;
+    balance += amount;
+}
+
+bool Account::compAccountNumber(const int otherAccountNum) const {
+    return to_string(otherAccountNum).find(to_string(accountNumber)) == 0;
 }
 
 vector<string> split(string& line, char delimiter) {
@@ -77,28 +73,22 @@ vector<string> split(string& line, char delimiter) {
 void Account::readAccount(istream& in) {
     string line;
     if (!getline(in, line)) {
-        // If getline fails (reached EOF or an error), do not continue
         return; 
     }
 
-    // If the line is empty after reading, treat it as EOF or invalid data
     if (line.empty()) {
-        return;  // Skip empty lines and stop reading
+        return;
     }
 
     vector<string> parts = split(line, ' ');
-    
-    // Basic sanity check for parts (ensure there are at least 3 parts: account number, balance, and description)
     if (parts.size() < 3) {
         cerr << "Error: Invalid account format in line: " << line << endl;
         return;
     }
 
-    // Parse the account number, balance, and description
     accountNumber = stoi(parts[0]);
     balance = stod(parts[parts.size() - 1]);
 
-    // Join the parts for the description (which are between account number and balance)
     string desc;
     for (int i = 1; i < parts.size() - 2; i++) {
         desc += parts[i] + ' ';

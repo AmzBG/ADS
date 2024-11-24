@@ -10,16 +10,14 @@ class Transaction {
         int id;
         double amount;
         char type;
-        string description;
 
     public:
-        Transaction(int, double, char, const string &);
+        Transaction(int, double, char);
 
         // Getters
         double getAmount() const;
         char getType() const;
         int getId() const;
-        string getDescription() const;
 
         // Operators
         bool operator<(const Transaction &) const; // used for sorting

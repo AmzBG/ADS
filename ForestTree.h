@@ -9,9 +9,9 @@ class ForestTree {
         class Node {
             public:
                 Account data;
-                Node* sibiling;
+                Node* sibling;
                 Node* child;
-                Node(const Account & acc) : data(acc), sibiling(nullptr), child(nullptr) {};
+                Node(const Account & acc) : data(acc), sibling(nullptr), child(nullptr) {};
         };
 
         typedef Node* nodePtr;
@@ -21,11 +21,17 @@ class ForestTree {
         ForestTree();
         void addAccount(const Account &);
         void buildTreeFromFile(const string &);
-        void addTransaction(const int, const Transaction &);
-        // void printTree() const; //! let's use the operator much better
-        void searchAccount(int) const; // if found would display it
-        nodePtr binarySearchSibling(nodePtr, const string &) const;
 
-        void printTree(nodePtr, int, ofstream &) const;
+
+        nodePtr searchAccount(int) const;
+        void findAccount(int) const;
+        void updateTransaction(const int, double) const;
+        // nodePtr updateTransaction(const int, double) const;
+        void addTransaction(const int, const Transaction &);
+        // void removeTransaction(const int, const Transaction &);
+        void removeTransaction(const int, const int);
+
+
+        void printTree(nodePtr, int, ostream &) const;
         friend ostream& operator<<(ostream &, const ForestTree &);
 };

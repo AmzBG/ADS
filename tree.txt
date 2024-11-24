@@ -1,1848 +1,6117 @@
-1
---10
-----11
-------101
---------1011
---------1012
---------1013
-----------10132
---------1018
---------1041
---------1042
---------1043
---------1044
---------1045
---------1051
---------1052
---------1053
---------1055
---------1057
---------1058
---------1061
-----------10612
---------1062
---------1063
---------1064
-----------10648
---------1068
-----------10688
---------1311
---------1312
---------1313
---------1314
---------1315
---------1316
---------1317
---------1318
---------1391
-----------13918
---------1398
---------1423
---------1424
---------1431
---------1432
---------1511
---------1512
---------1513
---------1514
---------1515
---------1516
---------1518
---------1572
---------1581
---------1651
---------1655
---------1661
---------1662
---------1671
---------1674
---------1675
---------1681
---------1685
---------1687
---------1688
-----------16888
---------1781
---------1788
---------2011
---------2012
-----------20122
---------2013
---------2081
---------2111
---------2112
---------2113
---------2114
---------2115
-----------211588
---------2116
---------2131
-----------213188
---------2135
-----------213588
---------2138
-----------21385
---------2151
-----------21514
---------2153
-----------21534
---------2154
---------2155
---------2157
---------2181
---------2182
---------2183
---------2184
---------2185
---------2186
---------2187
---------2312
---------2313
---------2315
---------2318
---------2382
---------2383
---------2385
---------2388
---------2611
---------2618
---------2661
---------2671
---------2674
---------2675
---------2676
---------2677
---------2678
---------2681
---------2688
---------2711
---------2718
---------2721
---------2722
---------2741
---------2742
---------2743
---------2748
---------2751
---------2755
---------2761
---------2768
-----------27688
---------2771
---------2772
---------2801
---------2803
---------2805
---------2807
---------2808
-----------28081
---------2812
---------2813
---------2814
---------2815
---------2818
-----------28187
---------2905
---------2906
---------2907
---------2908
-----------29187
---------2931
---------2932
---------2961
---------2966
---------2967
---------2968
---------2971
---------2972
---------2973
---------2974
---------2975
---------2976
-----------29787
---------3211
---------3212
---------3221
---------3222
---------3223
---------3224
---------3225
---------3261
---------3265
---------3267
---------3311
---------3312
---------3351
---------3352
---------3411
---------3412
---------3451
---------3452
---------3511
---------3512
---------3551
---------3552
---------3581
---------3585
---------3586
---------3911
---------3912
---------3917
---------3921
---------3922
---------3926
---------3931
---------3935
---------3941
---------3945
---------3951
---------3955
---------3971
---------3972
---------4011
---------4017
---------4041
---------4047
---------4081
---------4084
---------4088
---------4091
---------4096
---------4097
-----------40974
---------4098
---------4111
---------4117
---------4181
---------4188
---------4191
---------4196
---------4197
---------4198
---------4246
---------4248
---------4282
---------4284
---------4286
---------4287
---------4382
---------4386
---------4387
---------4411
---------4417
---------4418
---------4419
---------4421
---------4422
---------4423
---------4424
---------4425
---------4431
---------4438
---------4452
---------4455
-----------44558
---------4456
-----------44568
---------4457
-----------44578
---------4458
-----------44587
---------4482
---------4486
---------4487
---------4551
---------4558
---------4561
-----------45615
---------4562
-----------45625
---------4563
---------4564
---------4566
---------4567
---------4581
---------4588
---------4686
---------4687
---------4746
---------4747
---------4761
---------4762
---------4768
---------4771
---------4772
---------4778
-----------47872
---------4816
---------4871
---------4886
---------4887
---------4951
---------4955
---------4958
---------4962
---------4965
---------4967
---------5021
---------5022
---------5031
---------5035
---------5061
---------5065
---------5081
---------5082
---------5088
---------5111
---------5112
---------5113
---------5114
---------5121
---------5124
---------5181
---------5188
---------5191
---------5193
---------5198
---------5311
---------5314
---------5903
---------5904
---------5906
---------5908
---------6011
---------6012
---------6017
---------6021
-----------60212
---------6022
-----------60225
---------6026
-----------60267
---------6031
---------6032
---------6037
---------6061
---------6063
---------6064
---------6068
---------6071
---------6072
---------6091
---------6092
---------6094
---------6095
---------6096
---------6097
---------6098
---------6122
---------6125
---------6132
---------6135
---------6136
---------6152
---------6155
---------6156
---------6161
---------6162
---------6163
-----------61638
---------6164
---------6165
---------6181
---------6183
---------6185
---------6211
---------6214
---------6221
---------6222
---------6224
---------6225
---------6226
---------6227
---------6228
---------6231
---------6232
---------6233
---------6234
---------6235
---------6236
---------6237
---------6238
---------6241
---------6242
---------6243
---------6244
---------6247
---------6248
---------6251
---------6255
---------6256
---------6257
---------6271
---------6272
---------6275
---------6276
---------6278
---------6281
---------6284
---------6311
---------6312
---------6313
---------6314
---------6318
---------6331
---------6332
---------6333
---------6334
---------6335
---------6338
---------6351
-----------63514
---------6352
---------6353
---------6354
-----------63541
---------6358
---------6371
---------6372
---------6374
---------6378
---------6411
---------6412
---------6413
---------6414
---------6415
---------6451
---------6452
---------6453
---------6454
---------6458
---------6471
---------6472
---------6473
---------6474
---------6475
---------6511
---------6516
---------6518
---------6541
---------6544
---------6551
---------6555
---------6611
-----------66117
---------6612
---------6615
---------6616
---------6617
---------6618
-----------66188
---------6661
---------6711
---------6712
---------6713
---------6714
---------6715
---------6717
---------6718
---------6741
---------6742
---------6751
---------6752
---------6756
---------6758
---------6781
---------6782
---------6783
---------6788
---------6811
-----------68112
---------6812
---------6815
---------6816
-----------68162
---------6817
-----------68174
---------6861
---------6865
---------6866
-----------68665
---------6868
---------6871
---------6872
-----------68725
---------6873
---------6874
---------6875
---------6876
---------6951
---------6952
---------6954
---------6981
---------6989
---------7011
---------7012
---------7041
---------7042
---------7071
---------7072
---------7081
---------7082
---------7083
---------7084
---------7085
---------7086
---------7087
---------7088
---------7091
---------7092
---------7094
---------7095
---------7096
---------7097
---------7098
---------7133
-----------71335
---------7134
-----------71345
---------7135
-----------71358
---------7511
---------7516
---------7518
---------7551
---------7555
---------7611
---------7612
---------7616
---------7617
---------7621
---------7626
---------7627
---------7631
---------7638
---------7661
---------7711
---------7713
---------7714
---------7715
---------7717
---------7718
---------7741
---------7742
---------7751
---------7752
---------7756
---------7758
---------7781
---------7782
---------7783
---------7788
---------7811
-----------78112
---------7815
---------7816
-----------78162
---------7817
-----------78174
---------7865
---------7866
-----------78665
---------7872
-----------78727
---------7873
---------7874
---------7875
---------7876
---------8011
---------8014
---------8016
-----------80165
---------8018
---------8021
---------8024
---------8026
-----------80265
---------8028
---------8091
---------8092
-------102
-------104
-------105
-------106
-------107
-------108
-------109
-------110
-------119
-------120
-------129
-------131
-------138
-------139
-------142
-------143
-------144
-------145
-------146
-------147
-------148
-------151
-------153
-------154
-------155
-------156
-------157
-------158
-------161
-------162
-------163
-------164
-------165
-------166
-------167
-------168
-------169
-------171
-------174
-------178
-------181
-------186
-------187
-------188
-------201
-------203
-------205
-------206
-------207
-------208
-------211
-------212
-------213
-------214
-------215
-------218
-------229
-------231
-------232
-------237
-------238
-------261
-------266
-------267
-------268
-------269
-------271
-------272
-------273
-------274
-------275
-------276
-------277
-------278
-------279
-------280
-------281
-------282
-------290
-------291
-------292
-------293
-------296
-------297
-------311
-------312
-------317
-------321
-------322
-------326
-------331
-------335
-------341
-------345
-------351
-------355
-------358
-------371
-------372
-------391
-------392
-------393
-------394
-------395
-------397
-------400
-------401
-------403
-------404
-------405
-------408
-------409
-------410
-------411
-------413
-------416
-------418
-------419
-------421
-------422
-------424
-------425
-------426
-------427
-------428
-------431
-------437
-------438
-------441
-------442
-------443
-------444
-------445
-------446
-------447
-------448
-------449
-------451
-------455
-------456
-------457
-------458
-------462
-------464
-------465
-------467
-------468
-------471
-------474
-------475
-------476
-------477
-------478
-------481
-------486
-------487
-------488
-------491
-------495
-------496
-------501
-------502
-------503
-------504
-------505
-------506
-------507
-------508
-------509
-------511
-------512
-------514
-------515
-------516
-------517
-------518
-------519
-------521
-------522
-------523
-------524
-------531
-------532
-------533
-------590
-------601
-------602
-------603
-------604
-------605
-------606
-------607
-------608
-------609
-------611
-------612
-------613
-------614
-------615
-------616
-------617
-------618
-------619
-------621
-------622
-------623
-------624
-------625
-------626
-------627
-------628
-------629
-------631
-------633
-------635
-------637
-------641
-------644
-------645
-------646
-------647
-------648
-------651
-------653
-------654
-------655
-------656
-------658
-------661
-------664
-------665
-------666
-------667
-------668
-------671
-------672
-------674
-------675
-------678
-------681
-------686
-------687
-------691
-------695
-------696
-------698
-------699
-------701
-------702
-------703
-------704
-------705
-------706
-------707
-------708
-------709
-------713
-------721
-------722
-------751
-------752
-------753
-------754
-------755
-------756
-------758
-------761
-------762
-------763
-------764
-------765
-------766
-------767
-------768
-------771
-------772
-------774
-------775
-------777
-------778
-------781
-------786
-------787
-------791
-------796
-------797
-------801
-------802
-------809
-------890
-------891
-----12
-----13
-----14
-----15
-----16
-----17
-----18
-----20
-----21
-----22
-----23
-----25
-----26
-----27
-----28
-----29
-----31
-----32
-----33
-----34
-----35
-----36
-----37
-----38
-----39
-----40
-----41
-----42
-----43
-----44
-----45
-----46
-----47
-----48
-----49
-----50
-----51
-----52
-----53
-----54
-----58
-----59
-----60
-----61
-----62
-----63
-----64
-----65
-----66
-----67
-----68
-----69
-----70
-----71
-----72
-----74
-----75
-----76
-----77
-----78
-----79
-----80
-----88
-----89
-8
-10
---11
-----101
-------1011
-------1012
-------1013
---------10132
-------1018
-------1041
-------1042
-------1043
-------1044
-------1045
-------1051
-------1052
-------1053
-------1055
-------1057
-------1058
-------1061
---------10612
-------1062
-------1063
-------1064
---------10648
-------1068
---------10688
-------1311
-------1312
-------1313
-------1314
-------1315
-------1316
-------1317
-------1318
-------1391
---------13918
-------1398
-------1423
-------1424
-------1431
-------1432
-------1511
-------1512
-------1513
-------1514
-------1515
-------1516
-------1518
-------1572
-------1581
-------1651
-------1655
-------1661
-------1662
-------1671
-------1674
-------1675
-------1681
-------1685
-------1687
-------1688
---------16888
-------1781
-------1788
-------2011
-------2012
---------20122
-------2013
-------2081
-------2111
-------2112
-------2113
-------2114
-------2115
---------211588
-------2116
-------2131
---------213188
-------2135
---------213588
-------2138
---------21385
-------2151
---------21514
-------2153
---------21534
-------2154
-------2155
-------2157
-------2181
-------2182
-------2183
-------2184
-------2185
-------2186
-------2187
-------2312
-------2313
-------2315
-------2318
-------2382
-------2383
-------2385
-------2388
-------2611
-------2618
-------2661
-------2671
-------2674
-------2675
-------2676
-------2677
-------2678
-------2681
-------2688
-------2711
-------2718
-------2721
-------2722
-------2741
-------2742
-------2743
-------2748
-------2751
-------2755
-------2761
-------2768
---------27688
-------2771
-------2772
-------2801
-------2803
-------2805
-------2807
-------2808
---------28081
-------2812
-------2813
-------2814
-------2815
-------2818
---------28187
-------2905
-------2906
-------2907
-------2908
---------29187
-------2931
-------2932
-------2961
-------2966
-------2967
-------2968
-------2971
-------2972
-------2973
-------2974
-------2975
-------2976
---------29787
-------3211
-------3212
-------3221
-------3222
-------3223
-------3224
-------3225
-------3261
-------3265
-------3267
-------3311
-------3312
-------3351
-------3352
-------3411
-------3412
-------3451
-------3452
-------3511
-------3512
-------3551
-------3552
-------3581
-------3585
-------3586
-------3911
-------3912
-------3917
-------3921
-------3922
-------3926
-------3931
-------3935
-------3941
-------3945
-------3951
-------3955
-------3971
-------3972
-------4011
-------4017
-------4041
-------4047
-------4081
-------4084
-------4088
-------4091
-------4096
-------4097
---------40974
-------4098
-------4111
-------4117
-------4181
-------4188
-------4191
-------4196
-------4197
-------4198
-------4246
-------4248
-------4282
-------4284
-------4286
-------4287
-------4382
-------4386
-------4387
-------4411
-------4417
-------4418
-------4419
-------4421
-------4422
-------4423
-------4424
-------4425
-------4431
-------4438
-------4452
-------4455
---------44558
-------4456
---------44568
-------4457
---------44578
-------4458
---------44587
-------4482
-------4486
-------4487
-------4551
-------4558
-------4561
---------45615
-------4562
---------45625
-------4563
-------4564
-------4566
-------4567
-------4581
-------4588
-------4686
-------4687
-------4746
-------4747
-------4761
-------4762
-------4768
-------4771
-------4772
-------4778
---------47872
-------4816
-------4871
-------4886
-------4887
-------4951
-------4955
-------4958
-------4962
-------4965
-------4967
-------5021
-------5022
-------5031
-------5035
-------5061
-------5065
-------5081
-------5082
-------5088
-------5111
-------5112
-------5113
-------5114
-------5121
-------5124
-------5181
-------5188
-------5191
-------5193
-------5198
-------5311
-------5314
-------5903
-------5904
-------5906
-------5908
-------6011
-------6012
-------6017
-------6021
---------60212
-------6022
---------60225
-------6026
---------60267
-------6031
-------6032
-------6037
-------6061
-------6063
-------6064
-------6068
-------6071
-------6072
-------6091
-------6092
-------6094
-------6095
-------6096
-------6097
-------6098
-------6122
-------6125
-------6132
-------6135
-------6136
-------6152
-------6155
-------6156
-------6161
-------6162
-------6163
---------61638
-------6164
-------6165
-------6181
-------6183
-------6185
-------6211
-------6214
-------6221
-------6222
-------6224
-------6225
-------6226
-------6227
-------6228
-------6231
-------6232
-------6233
-------6234
-------6235
-------6236
-------6237
-------6238
-------6241
-------6242
-------6243
-------6244
-------6247
-------6248
-------6251
-------6255
-------6256
-------6257
-------6271
-------6272
-------6275
-------6276
-------6278
-------6281
-------6284
-------6311
-------6312
-------6313
-------6314
-------6318
-------6331
-------6332
-------6333
-------6334
-------6335
-------6338
-------6351
---------63514
-------6352
-------6353
-------6354
---------63541
-------6358
-------6371
-------6372
-------6374
-------6378
-------6411
-------6412
-------6413
-------6414
-------6415
-------6451
-------6452
-------6453
-------6454
-------6458
-------6471
-------6472
-------6473
-------6474
-------6475
-------6511
-------6516
-------6518
-------6541
-------6544
-------6551
-------6555
-------6611
---------66117
-------6612
-------6615
-------6616
-------6617
-------6618
---------66188
-------6661
-------6711
-------6712
-------6713
-------6714
-------6715
-------6717
-------6718
-------6741
-------6742
-------6751
-------6752
-------6756
-------6758
-------6781
-------6782
-------6783
-------6788
-------6811
---------68112
-------6812
-------6815
-------6816
---------68162
-------6817
---------68174
-------6861
-------6865
-------6866
---------68665
-------6868
-------6871
-------6872
---------68725
-------6873
-------6874
-------6875
-------6876
-------6951
-------6952
-------6954
-------6981
-------6989
-------7011
-------7012
-------7041
-------7042
-------7071
-------7072
-------7081
-------7082
-------7083
-------7084
-------7085
-------7086
-------7087
-------7088
-------7091
-------7092
-------7094
-------7095
-------7096
-------7097
-------7098
-------7133
---------71335
-------7134
---------71345
-------7135
---------71358
-------7511
-------7516
-------7518
-------7551
-------7555
-------7611
-------7612
-------7616
-------7617
-------7621
-------7626
-------7627
-------7631
-------7638
-------7661
-------7711
-------7713
-------7714
-------7715
-------7717
-------7718
-------7741
-------7742
-------7751
-------7752
-------7756
-------7758
-------7781
-------7782
-------7783
-------7788
-------7811
---------78112
-------7815
-------7816
---------78162
-------7817
---------78174
-------7865
-------7866
---------78665
-------7872
---------78727
-------7873
-------7874
-------7875
-------7876
-------8011
-------8014
-------8016
---------80165
-------8018
-------8021
-------8024
-------8026
---------80265
-------8028
-------8091
-------8092
-----102
-----104
-----105
-----106
-----107
-----108
-----109
-----110
-----119
-----120
-----129
-----131
-----138
-----139
-----142
-----143
-----144
-----145
-----146
-----147
-----148
-----151
-----153
-----154
-----155
-----156
-----157
-----158
-----161
-----162
-----163
-----164
-----165
-----166
-----167
-----168
-----169
-----171
-----174
-----178
-----181
-----186
-----187
-----188
-----201
-----203
-----205
-----206
-----207
-----208
-----211
-----212
-----213
-----214
-----215
-----218
-----229
-----231
-----232
-----237
-----238
-----261
-----266
-----267
-----268
-----269
-----271
-----272
-----273
-----274
-----275
-----276
-----277
-----278
-----279
-----280
-----281
-----282
-----290
-----291
-----292
-----293
-----296
-----297
-----311
-----312
-----317
-----321
-----322
-----326
-----331
-----335
-----341
-----345
-----351
-----355
-----358
-----371
-----372
-----391
-----392
-----393
-----394
-----395
-----397
-----400
-----401
-----403
-----404
-----405
-----408
-----409
-----410
-----411
-----413
-----416
-----418
-----419
-----421
-----422
-----424
-----425
-----426
-----427
-----428
-----431
-----437
-----438
-----441
-----442
-----443
-----444
-----445
-----446
-----447
-----448
-----449
-----451
-----455
-----456
-----457
-----458
-----462
-----464
-----465
-----467
-----468
-----471
-----474
-----475
-----476
-----477
-----478
-----481
-----486
-----487
-----488
-----491
-----495
-----496
-----501
-----502
-----503
-----504
-----505
-----506
-----507
-----508
-----509
-----511
-----512
-----514
-----515
-----516
-----517
-----518
-----519
-----521
-----522
-----523
-----524
-----531
-----532
-----533
-----590
-----601
-----602
-----603
-----604
-----605
-----606
-----607
-----608
-----609
-----611
-----612
-----613
-----614
-----615
-----616
-----617
-----618
-----619
-----621
-----622
-----623
-----624
-----625
-----626
-----627
-----628
-----629
-----631
-----633
-----635
-----637
-----641
-----644
-----645
-----646
-----647
-----648
-----651
-----653
-----654
-----655
-----656
-----658
-----661
-----664
-----665
-----666
-----667
-----668
-----671
-----672
-----674
-----675
-----678
-----681
-----686
-----687
-----691
-----695
-----696
-----698
-----699
-----701
-----702
-----703
-----704
-----705
-----706
-----707
-----708
-----709
-----713
-----721
-----722
-----751
-----752
-----753
-----754
-----755
-----756
-----758
-----761
-----762
-----763
-----764
-----765
-----766
-----767
-----768
-----771
-----772
-----774
-----775
-----777
-----778
-----781
-----786
-----787
-----791
-----796
-----797
-----801
-----802
-----809
-----890
-----891
---12
---13
---14
---15
---16
---17
---18
---20
---21
---22
---23
---25
---26
---27
---28
---29
---31
---32
---33
---34
---35
---36
---37
---38
---39
---40
---41
---42
---43
---44
---45
---46
---47
---48
---49
---50
---51
---52
---53
---54
---58
---59
---60
---61
---62
---63
---64
---65
---66
---67
---68
---69
---70
---71
---72
---74
---75
---76
---77
---78
---79
---80
---88
---89
+Account Number: 1
+Description: EQUITY AND LIABILITIES
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 10
+--Description: Capital and reserves
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 101
+----Description: Capital
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1011
+------Description: Subscribed capital - uncalled
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1012
+------Description: "Subscribed capital - called-up, unpaid"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1013
+------Description: "Subscribed capital - called-up, paid-up"
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 10131
+--------Description: Remaining capital
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 10132
+--------Description: Returned capital
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 1018
+------Description: Subscribed capital subject to specific regulations
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 102
+----Description: Trust funds
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 104
+----Description: Premiums related to share capital
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1041
+------Description: Share premiums
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1042
+------Description: Merger premiums
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1043
+------Description: Contribution premiums
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1044
+------Description: Premiums on conversion of bonds into shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1045
+------Description: Share warrants
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 105
+----Description: Revaluation differences
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1051
+------Description: Special revaluation reserve
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1052
+------Description: Non-mandatory revaluation difference
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1053
+------Description: Revaluation reserve
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1055
+------Description: Revaluation differences (other legal transactions)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1057
+------Description: Other revaluation differences in France
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1058
+------Description: Other revaluation differences in foreign countries
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 106
+----Description: Reserves
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1061
+------Description: Legal reserve
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 10611
+--------Description: Standard legal reserve
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 10612
+--------Description: Net long-term capital gains
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 1062
+------Description: Reserves not available for distribution
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1063
+------Description: Statutory or contractual reserves
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1064
+------Description: Regulated reserves
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 10641
+--------Description: Net long-term capital gains
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 10643
+--------Description: Reserves resulting from the granting of investment grants
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 10648
+--------Description: Other regulated reserves
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 1068
+------Description: Other reserves
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 10681
+--------Description: Self insurance reserve
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 10688
+--------Description: Sundry reserves
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 107
+----Description: Difference in equity method
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 108
+----Description: Owner's proprietor account
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 109
+----Description: Shareholders : subscribed uncalled capital
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 11
+--Description: Retained earnings (debit or credit balance)
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 110
+----Description: Retained earnings (credit balance)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 119
+----Description: Negative retained earnings (debit balance)
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 12
+--Description: Profit or loss for the financial year
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 120
+----Description: Profit for the financial year
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 129
+----Description: Loss for the financial year
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 13
+--Description: Investment grants
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 131
+----Description: Equipment grants
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1311
+------Description: State
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1312
+------Description: Regions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1313
+------Description: Departments
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1314
+------Description: Municipalities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1315
+------Description: Public authorities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1316
+------Description: State-owned enterprises
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1317
+------Description: Private companies and organizations
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1318
+------Description: Others
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 138
+----Description: Other investment grants (same breakdown as account 131)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 139
+----Description: Investment grants recorded in the income statement
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1391
+------Description: Equipment grants
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 13911
+--------Description: State
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 13912
+--------Description: Regions
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 13913
+--------Description: Departments
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 13914
+--------Description: Municipalities
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 13915
+--------Description: Public authorities
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 13916
+--------Description: State-owned enterprises
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 13917
+--------Description: Private companies and organizations
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 13918
+--------Description: Other
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 1398
+------Description: Other investment grants (same breakdown as account 1391)
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 14
+--Description: Regulated provisions
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 142
+----Description: Regulated provisions relating to fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1423
+------Description: Provisions for reconstitution of mining and petroleum deposits
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1424
+------Description: Provisions for investment (employee profit-sharing)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 143
+----Description: Regulated provisions relating to inventory
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1431
+------Description: Price increase
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1432
+------Description: Exchange rate fluctuations
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 144
+----Description: Regulated provisions relating to other assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 145
+----Description: Derogatory depreciation
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 146
+----Description: Special revaluation provision
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 147
+----Description: Reinvested capital gains
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 148
+----Description: Other regulated provisions
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 15
+--Description: Provisions
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 151
+----Description: Provisions for liabilities
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1511
+------Description: Provisions for litigation
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1512
+------Description: Provisions for warranties given to customers
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1513
+------Description: Provisions for losses on futures markets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1514
+------Description: Provisions for fines and penalties
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1515
+------Description: Provisions for foreign exchange losses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1516
+------Description: Provisions for losses on contracts
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1518
+------Description: Other provisions for liabilities
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 153
+----Description: Provisions for pensions and similar obligations
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 154
+----Description: Provisions for restructuring
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 155
+----Description: Provisions for taxes
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 156
+----Description: Provisions for the renewal of fixed assets (concession companies)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 157
+----Description: Provisions for deferred expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1572
+------Description: Provisions for major maintenance or major overhauls
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 158
+----Description: Other provisions for expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1581
+------Description: Provisions for renovation
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 16
+--Description: Loans and similar debts
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 161
+----Description: Convertible debenture loans
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 162
+----Description: Bonds related to net liabilities in a trust
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 163
+----Description: Other debenture loans
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 164
+----Description: Loans from lending institutions
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 165
+----Description: Deposits and sureties received
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1651
+------Description: Deposits
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1655
+------Description: Sureties
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 166
+----Description: Employee profit-sharing
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1661
+------Description: Blocked accounts
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1662
+------Description: Profit-sharing funds
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 167
+----Description: Loans and debts with special conditions
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1671
+------Description: Issues of non-voting shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1674
+------Description: Advances by the state subject to conditions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1675
+------Description: Profit-sharing loans
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 168
+----Description: Other loans and similar debts
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1681
+------Description: Other loans
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1685
+------Description: Capitalized life annuities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1687
+------Description: Other debts
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1688
+------Description: Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 16881
+--------Description: on convertible debenture loans
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 16883
+--------Description: on other debenture loans
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 16884
+--------Description: on loans from lending institutions
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 16885
+--------Description: on deposits and sureties received
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 16886
+--------Description: on employee profit-sharing
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 16887
+--------Description: on loans and debts with special conditions
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 16888
+--------Description: on other loans and similar debts
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 169
+----Description: Debenture redemption premiums
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 17
+--Description: Debts related to equity interests
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 171
+----Description: Debts related to equity interests (Group)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 174
+----Description: Debts related to equity interests (non-Group)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 178
+----Description: Debts related to joint ventures
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 1781
+------Description: Principal
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 1788
+------Description: Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 18
+--Description: Intra-entity transactions
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 181
+----Description: Intra-entity transactions between establishments
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 186
+----Description: Goods and services traded between establishments (expenses)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 187
+----Description: Goods and services traded between establishments (income)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 188
+----Description: Intra-entity transactions through a joint venture
+----Balance: 0
+----Transactions:
+      No transactions
+
+Account Number: 2
+Description: FIXED ASSETS
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 20
+--Description: Intangible fixed assets
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 201
+----Description: Formation expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2011
+------Description: Set-up costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2012
+------Description: Start-up costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 20121
+--------Description: Prospecting costs
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 20122
+--------Description: Advertising expenses
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 2013
+------Description: "Increase in capital and various transactions costs (mergers, demergers, changes of legal form)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 203
+----Description: Research and development costs
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 205
+----Description: "Concessions and similar rights, patents, licenses, trademarks, processes, IT solutions, rights and similar assets"
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 206
+----Description: Leasehold rights
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 207
+----Description: Goodwill
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 208
+----Description: Other intangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2081
+------Description: Merger deficit on intangible assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 21
+--Description: Tangible fixed assets
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 211
+----Description: Land
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2111
+------Description: Undeveloped land
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2112
+------Description: Serviced land
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2113
+------Description: Underground and above ground level land
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2114
+------Description: Quarry land (Deep level underground)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2115
+------Description: Developed land
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 21151
+--------Description: "Industrial properties (A, B)"
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21155
+--------Description: "Administrative and commercial properties (A, B)"
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21158
+--------Description: Other properties
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----------Account Number: 211581
+----------Description: "for business activities (A, B)"
+----------Balance: 0
+----------Transactions:
+            No transactions
+
+----------Account Number: 211588
+----------Description: "for non business activities (A, B)"
+----------Balance: 0
+----------Transactions:
+            No transactions
+
+------Account Number: 2116
+------Description: Fixed asset order account
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 212
+----Description: Land fixtures and installations
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 213
+----Description: Constructions
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2131
+------Description: Buildings
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 21311
+--------Description: "Industrial properties (A, B)"
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21315
+--------Description: "Administrative and commercial properties (A, B)"
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21318
+--------Description: Other properties
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----------Account Number: 213181
+----------Description: "for business activities (A, B)"
+----------Balance: 0
+----------Transactions:
+            No transactions
+
+----------Account Number: 213188
+----------Description: "for non business activities (A, B)"
+----------Balance: 0
+----------Transactions:
+            No transactions
+
+------Account Number: 2135
+------Description: "Building installations, fittings and fixtures"
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 21351
+--------Description: "Industrial properties (A, B)"
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21355
+--------Description: "Administrative and commercial properties (A, B)"
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21358
+--------Description: Other properties
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----------Account Number: 213581
+----------Description: "for business activities (A, B)"
+----------Balance: 0
+----------Transactions:
+            No transactions
+
+----------Account Number: 213588
+----------Description: "for non business activities (A, B)"
+----------Balance: 0
+----------Transactions:
+            No transactions
+
+------Account Number: 2138
+------Description: Infrastructure works
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 21381
+--------Description: Roadways
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21382
+--------Description: Railways
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21383
+--------Description: Waterways
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21384
+--------Description: Dams
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21385
+--------Description: Airfield runways
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 214
+----Description: Constructions on third party's land (same breakdown as account 213)
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 215
+----Description: "Technical installations, industrial machinery, equipment and tools"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2151
+------Description: Specialized complex installations
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 21511
+--------Description: on own land
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21514
+--------Description: on third party's land
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 2153
+------Description: Specific installations
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 21531
+--------Description: on own land
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 21534
+--------Description: on third party's land
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 2154
+------Description: Industrial machinery and equipment
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2155
+------Description: Industrial tools
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2157
+------Description: "Fixtures and fittings for industrial machinery, equipment and tools"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 218
+----Description: Other tangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2181
+------Description: "Various installations, fixtures and fittings"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2182
+------Description: Transport equipment
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2183
+------Description: Office equipment and computer hardware
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2184
+------Description: Furniture
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2185
+------Description: Livestock
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2186
+------Description: Returnable packaging
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2187
+------Description: Merger deficit on tangible assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 22
+--Description: Concession fixed assets
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 229
+----Description: Grantor's rights
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 23
+--Description: Fixed assets in progress
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 231
+----Description: Tangible fixed assets in progress
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2312
+------Description: Land
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2313
+------Description: Constructions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2315
+------Description: "Technical installations, industrial machinery, equipment and tools"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2318
+------Description: Other tangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 232
+----Description: Intangible fixed assets in progress
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 237
+----Description: Advance payments on account on intangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 238
+----Description: Advance payments on account on orders for intangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2382
+------Description: Land
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2383
+------Description: Constructions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2385
+------Description: "Technical installations, industrial machinery, equipment and tools"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2388
+------Description: Other tangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 25
+--Description: Shares in affiliated companies and receivables from them
+--Balance: 0
+--Transactions:
+    No transactions
+
+--Account Number: 26
+--Description: Equity interests and receivables from equity interests
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 261
+----Description: Equity investments
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2611
+------Description: Shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2618
+------Description: Other securities
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 266
+----Description: Other types of equity interests
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2661
+------Description: Rights representing net assets in a trust
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 267
+----Description: Receivables from equity interests
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2671
+------Description: Receivables from equity interests (Group)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2674
+------Description: Receivables from equity interests (non-Group)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2675
+------Description: Payments representing non-capital contributions (call for funds)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2676
+------Description: Convertible loans
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2677
+------Description: Other receivables from equity interests
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2678
+------Description: Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 268
+----Description: Receivables from joint ventures
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2681
+------Description: Principal
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2688
+------Description: Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 269
+----Description: Remaining payments on unpaid equity investments
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 27
+--Description: Other financial fixed assets
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 271
+----Description: Long-term securities other than portfolio investments
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2711
+------Description: Shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2718
+------Description: Other securities
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 272
+----Description: Long-term debt securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2721
+------Description: Bonds
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2722
+------Description: Bills
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 273
+----Description: Portfolio investments
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 274
+----Description: Loans
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2741
+------Description: Participating loans
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2742
+------Description: Loans to partners
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2743
+------Description: Loans to employees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2748
+------Description: Other loans
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 275
+----Description: Deposits and sureties paid
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2751
+------Description: Deposits
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2755
+------Description: Sureties
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 276
+----Description: Other long-term receivables
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2761
+------Description: Sundry receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2768
+------Description: Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 27682
+--------Description: on long-term debt securities
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 27684
+--------Description: on loans
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 27685
+--------Description: on deposits and guarantees
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 27688
+--------Description: on sundry receivables
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 277
+----Description: Own shares
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2771
+------Description: Own shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2772
+------Description: Own shares in the process of cancellation
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 278
+----Description: Merger deficit on financial assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 279
+----Description: Remaining payments on unpaid long-term securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 28
+--Description: Accumulated amortization and depreciation of fixed assets
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 280
+----Description: Accumulated amortization of intangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2801
+------Description: Formation expenses (same breakdown as account 201)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2803
+------Description: Research and development costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2805
+------Description: "Concessions and similar rights, patents, licenses, trademarks, processes, IT solutions, rights and similar assets"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2807
+------Description: Goodwill
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2808
+------Description: Other intangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 28081
+--------Description: Accumulated amortization of merger deficit on intangible assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 281
+----Description: Accumulated depreciation of tangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2812
+------Description: Land fixtures and installations (same breakdown as account 212)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2813
+------Description: Constructions (same breakdown as account 213)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2814
+------Description: Constructions on third party's land (same breakdown as account 214)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2815
+------Description: "Technical installations, industrial machinery, equipment and tools (same breakdown as account 215)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2818
+------Description: Other tangible fixed assets (same breakdown as account 218)
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 28187
+--------Description: Accumulated amortization of merger deficit on tangible assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 282
+----Description: Accumulated amortization and depreciation of concession fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 29
+--Description: Provisions for impairment of fixed assets
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 290
+----Description: Provisions for impairment of intangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2905
+------Description: "Trademarks, processes, rights and similar assets"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2906
+------Description: Leasehold rights
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2907
+------Description: Goodwill
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2908
+------Description: Other intangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 29081
+--------Description: Provisions for impairment of merger deficit on intangible assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 291
+----Description: Provisions for impairment of tangible fixed assets (same breakdown as account 21)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 29187
+------Description: Provisions for impairment of concession fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 292
+----Description: Provisions for impairment of concession fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 293
+----Description: Provisions for impairment of fixed assets in progress
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2931
+------Description: Tangible fixed assets in progress
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2932
+------Description: Intangible fixed assets in progress
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 296
+----Description: Provisions for impairment of equity interests and receivables from equity interests
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2961
+------Description: Equity investments
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2966
+------Description: Other types of equity interests
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2967
+------Description: Receivables from equity interests (same breakdown as account 267)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2968
+------Description: Other receivables from joint ventures (same breakdown as account 268)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 297
+----Description: Provisions for impairment of other financial fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 2971
+------Description: Long-term securities other than portfolio investments (same breakdown as account 271)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2972
+------Description: Long-term debt securities (same breakdown as account 272)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2973
+------Description: Portfolio investments
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2974
+------Description: Loans (same breakdown as account 274)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2975
+------Description: Deposits and sureties paid (same breakdown as account 275)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 2976
+------Description: Other long-term receivables (same breakdown as account 276)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 29787
+------Description: Provisions for impairment of merger deficit on financial assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+Account Number: 3
+Description: INVENTORY AND WORK IN PROGRESS
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 31
+--Description: Raw materials (and supplies)
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 311
+----Description: Materials (or range) A
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 312
+----Description: Materials (or range) A
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 317
+----Description: "Supplies A, B, C,"
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 32
+--Description: Other supplies
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 321
+----Description: Consumable materials
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3211
+------Description: Materials (or range) C
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3212
+------Description: Materials (or range) D
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 322
+----Description: Consumable supplies
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3221
+------Description: Fuels
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3222
+------Description: Cleaning products
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3223
+------Description: Workshop and factory supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3224
+------Description: Store supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3225
+------Description: Office supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 326
+----Description: Packaging
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3261
+------Description: Lost packaging
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3265
+------Description: Unidentifiable recoverable packaging
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3267
+------Description: Mixed-use packaging
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 33
+--Description: Work in progress of goods
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 331
+----Description: Goods in progress
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3311
+------Description: Goods in progress P1
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3312
+------Description: Goods in progress P2
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 335
+----Description: Works in progress
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3351
+------Description: Works in progress T 1
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3352
+------Description: Works in progress T 2
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 34
+--Description: Work in progress of services
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 341
+----Description: Studies in progress
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3411
+------Description: Studies in progress E1
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3412
+------Description: Studies in progress E2
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 345
+----Description: Services in progress
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3451
+------Description: Services in progress S1
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3452
+------Description: Services in progress S2
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 35
+--Description: Inventory of goods
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 351
+----Description: Intermediate goods
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3511
+------Description: Intermediate goods (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3512
+------Description: Intermediate goods (or range) B
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 355
+----Description: Finished goods
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3551
+------Description: Finished goods (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3552
+------Description: Finished goods (or range) B
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 358
+----Description: Residual goods (or recovered materials)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3581
+------Description: Waste
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3585
+------Description: Scrap
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3586
+------Description: Recovered materials
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 36
+--Description: "Account to be opened, if applicable, as ""Inventory from fixed assets"""
+--Balance: 0
+--Transactions:
+    No transactions
+
+--Account Number: 37
+--Description: Inventory of goods for resale
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 371
+----Description: Goods for resale (or range) A
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 372
+----Description: Goods for resale (or range) B
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 38
+--Description: "When the general accounting is used by the entity in the perpetual inventory system, account 38 may be used to record inventory in transit, on consignment, or in storage."
+--Balance: 0
+--Transactions:
+    No transactions
+
+--Account Number: 39
+--Description: Provisions for impairment of inventory and work in progress
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 391
+----Description: Provisions for impairment of raw materials (and supplies)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3911
+------Description: Materials (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3912
+------Description: Materials (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3917
+------Description: "Supplies A,B,C"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 392
+----Description: Provisions for impairment of other supplies
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3921
+------Description: Consumable materials (same breakdown as account 321)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3922
+------Description: Consumable supplies (same breakdown as account 322)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3926
+------Description: Packaging (same breakdown as account 326)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 393
+----Description: Provisions for impairment of work in progress of goods
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3931
+------Description: Goods in progress (same breakdown as account 331)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3935
+------Description: Works in progress (same breakdown as account 335)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 394
+----Description: Provisions for impairment of work in progress of services
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3941
+------Description: Studies in progress (same breakdown as account 341)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3945
+------Description: Services in progress (same breakdown as account 345)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 395
+----Description: Provisions for impairment of inventory of goods
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3951
+------Description: Intermediate goods (same breakdown as account 351)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3955
+------Description: Finished goods (same breakdown as account 355)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 397
+----Description: Provisions for impairment of inventory of goods for resale
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 3971
+------Description: Goods for resale (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 3972
+------Description: Goods for resale (or range) B
+------Balance: 0
+------Transactions:
+        No transactions
+
+Account Number: 4
+Description: ACCOUNTS RECEIVABLE AND PAYABLE
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 40
+--Description: Suppliers - Accounts payable and related accounts
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 400
+----Description: Suppliers - Accounts payable and related accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 401
+----Description: Suppliers
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4011
+------Description: Suppliers - Accounts payable for purchases of goods and services
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4017
+------Description: Suppliers - Holdback
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 403
+----Description: Suppliers - Bills payable
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 404
+----Description: Fixed assets suppliers
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4041
+------Description: Fixed assets suppliers - Accounts payable for fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4047
+------Description: Fixed assets suppliers - Holdback
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 405
+----Description: Fixed assets suppliers - Bills payable
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 408
+----Description: Suppliers - Invoices not yet received
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4081
+------Description: Suppliers
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4084
+------Description: Fixed assets suppliers
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4088
+------Description: Suppliers - Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 409
+----Description: Suppliers with a debit balance
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4091
+------Description: Suppliers - Advance payments on account on orders
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4096
+------Description: Suppliers - Receivables for returnable packaging and equipment
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4097
+------Description: Suppliers - Other debit balance payables
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 40971
+--------Description: Operating suppliers
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 40974
+--------Description: Fixed assets suppliers
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 4098
+------Description: "Allowances, discounts, rebates and other credit notes not yet received"
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 41
+--Description: Customers - Trade receivables and related accounts
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 410
+----Description: Customers - Trade receivables and related accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 411
+----Description: Customers
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4111
+------Description: Customers - Sales of goods or services
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4117
+------Description: Customers - Holdback
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 413
+----Description: Customers - Bills receivable
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 416
+----Description: Customers - Doubtful accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 418
+----Description: Customers - Revenue not yet invoiced
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4181
+------Description: Customers - Invoices to be issued
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4188
+------Description: Customers - Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 419
+----Description: Customers with a crebit balance
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4191
+------Description: Customers - Advance payments on account received on orders
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4196
+------Description: Customers - Payables for returnable packaging and equipment
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4197
+------Description: Customers - Other credit balance receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4198
+------Description: "Allowances, discounts, rebates and other credit notes ot be issued"
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 42
+--Description: Employees and related accounts
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 421
+----Description: Employees - Salaries payable
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 422
+----Description: "Works councils, establishment committees, ..."
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 424
+----Description: Employee profit-sharing
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4246
+------Description: Special reserve
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4248
+------Description: Current accounts
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 425
+----Description: Employees - Advance payments on account
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 426
+----Description: Employees - Deposits
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 427
+----Description: Employees - Allowable salary deductions
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 428
+----Description: Employees - Accrued expenses and accrued income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4282
+------Description: Accrued vacation pay
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4284
+------Description: Accrued employee profit-sharing
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4286
+------Description: Other accrued expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4287
+------Description: Accrued income
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 43
+--Description: Social security and other social agencies
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 431
+----Description: Social security
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 437
+----Description: Other social agencies
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 438
+----Description: Social agencies - Accrued expenses and accrued income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4382
+------Description: Social security tax on vacation pay
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4386
+------Description: Other accrued expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4387
+------Description: Accrued income
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 44
+--Description: State and other public authorities
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 441
+----Description: State - Grants receivable
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4411
+------Description: Investment grants
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4417
+------Description: Operating grants
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4418
+------Description: Loss compensation grants
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4419
+------Description: Advanced grants
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 442
+----Description: "Contributions, taxes and duties collected on behalf of the State"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4421
+------Description: Income withholding tax
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4422
+------Description: Flat-rate withholding tax
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4423
+------Description: Dividend withholding tax
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4424
+------Description: Debenture holders
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4425
+------Description: Partners
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 443
+----Description: "Specific transactions with the State, public authorities and international organizations"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4431
+------Description: Receivables from the State due to the repeal of the one-month delay rule in V.A.T.
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4438
+------Description: Accrued interest on receivables recorded in account 4431
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 444
+----Description: State - Income taxes
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 445
+----Description: State - Taxes on turnover
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4452
+------Description: V.A.T. due within the EU
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4455
+------Description: Taxes payable on turnover
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 44551
+--------Description: V.A.T. payable
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44558
+--------Description: Taxes similar to V.A.T.
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 4456
+------Description: Deductible taxes on turnover
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 44562
+--------Description: V.A.T. on fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44563
+--------Description: V.A.T. transferred by other companies
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44566
+--------Description: V.A.T. on other goods and services
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44567
+--------Description: V.A.T. credit to be carried forward
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44568
+--------Description: Taxes similar to V.A.T.
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 4457
+------Description: Taxes on turnover collected by the company
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 44571
+--------Description: V.A.T. collected
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44578
+--------Description: Taxes similar to V.A.T.
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 4458
+------Description: Taxes on turnover to settle or pending
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 44581
+--------Description: Instalments - Simplified tax regime
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44582
+--------Description: Instalments - Flat-rate regime
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44583
+--------Description: Taxes on turnover refund claim
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44584
+--------Description: Over-recovery of V.A.T.
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44586
+--------Description: Taxes on turnover on invoices not yet received
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 44587
+--------Description: Taxes on turnover on invoices to be issued
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 446
+----Description: Guaranteed bonds
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 447
+----Description: "Other taxes, duties and similar payments"
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 448
+----Description: State - Accrued expenses and accrued income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4482
+------Description: Tax on vacation pay
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4486
+------Description: Accrued expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4487
+------Description: Accrued income
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 449
+----Description: Emission allowances to buy
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 45
+--Description: Group and partners
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 451
+----Description: Group
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 455
+----Description: Partners - Current accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4551
+------Description: Principal
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4558
+------Description: Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 456
+----Description: Partners - Capital transactions
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4561
+------Description: Partners - Capital contribution accounts
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 45611
+--------Description: Contributions in kind
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 45615
+--------Description: Contributions in cash
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 4562
+------Description: Capital contributors - Called-up unpaid capital
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 45621
+--------Description: Shareholders - Subscribed called-up unpaid capital
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 45625
+--------Description: Partners - Called-up unpaid capital
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 4563
+------Description: Partners - Payments received for capital increase
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4564
+------Description: Partners - Prepayments
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4566
+------Description: Defaulting shareholders
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4567
+------Description: Partners - Payments for returned capital
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 457
+----Description: Partners - Dividends payable
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 458
+----Description: Partners - Joint ventures and Economic Interest Grouping (E.I.G.)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4581
+------Description: Current transactions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4588
+------Description: Accrued interest
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 46
+--Description: Sundry accounts receivable and payable
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 462
+----Description: Receivables from sale of fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 464
+----Description: Payables on purchases of marketable securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 465
+----Description: Receivables from sales of marketable securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 467
+----Description: Other accounts receivable and payable
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 468
+----Description: Sundry accrued expenses and accrued income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4686
+------Description: Accrued expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4687
+------Description: Accrued income
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 47
+--Description: Suspense accounts
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 471
+----Description: - 473 Suspense accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 474
+----Description: Valuation difference of tokens on liabilities
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4746
+------Description: Valuation difference of tokens on liabilities - Assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4747
+------Description: Valuation difference of tokens on liabilities - Liabilities
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 475
+----Description: Suspense accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 476
+----Description: Unrealized exchanged losses - Assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4761
+------Description: Decrease in receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4762
+------Description: Increase in debt
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4768
+------Description: Differences offset by currency hedging
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 477
+----Description: Unrealized exchange gains - Liabilities
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4771
+------Description: Increase in receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4772
+------Description: Decrease in debt
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4778
+------Description: Differences offset by currency hedging
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 478
+----Description: Other suspense accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 47861
+------Description: Valuation differences on derivative financial instruments - Assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 47862
+------Description: Valuation differences on tokens held - Assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 47871
+------Description: Valuation differences on derivative financial instruments - Liabilities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 47872
+------Description: Valuation differences on tokens held - Liabilities
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 48
+--Description: Accruals and deferrals
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 481
+----Description: Deferred expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4816
+------Description: Loan issuance costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 486
+----Description: Prepaid expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 487
+----Description: Deferred income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4871
+------Description: Deferred income on tokens issued
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 488
+----Description: Periodic allocation of expenses and income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4886
+------Description: Expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4887
+------Description: Income
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 49
+--Description: Provisions for impairment of accounts receivable
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 491
+----Description: Provisions for impairment of trade receivables
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 495
+----Description: Provisions for impairment of group and partners accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4951
+------Description: Group accounts
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4955
+------Description: Partners current accounts
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4958
+------Description: Joint ventures and Economic Interest Grouping (E.I.G.)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 496
+----Description: Provisions for impairment of sundry accounts receivable
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 4962
+------Description: Receivables from sale of fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4965
+------Description: Receivables from sales of marketable securities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 4967
+------Description: Other receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+Account Number: 5
+Description: CASH AND FINANCIAL INSTRUMENTS
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 50
+--Description: Marketable securities
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 501
+----Description: Shares in affiliated companies
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 502
+----Description: Own shares
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5021
+------Description: Shares to be allocated to employees and assigned to a specific employee share ownership plan
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5022
+------Description: Shares bought back to increase or maintain their value or available for allocation to employees
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 503
+----Description: Shares
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5031
+------Description: Listed shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5035
+------Description: Unlisted shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 504
+----Description: Other equity securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 505
+----Description: Own bonds and warrants bought back
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 506
+----Description: Bonds
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5061
+------Description: Listed bonds
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5065
+------Description: Unlisted bonds
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 507
+----Description: Treasury bills and short-term notes
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 508
+----Description: Other marketable securities and similar receivables
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5081
+------Description: Other securities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5082
+------Description: Warrants
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5088
+------Description: "Accrued interest on bonds, warrants and similar securities"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 509
+----Description: Remaining payments on unpaid marketable securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 51
+--Description: "Banks, financial and similar institutions"
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 511
+----Description: Cash equivalents
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5111
+------Description: Matured coupons for collection
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5112
+------Description: Checks for collection
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5113
+------Description: Bills for collection
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5114
+------Description: Discounted bills
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 512
+----Description: Banks
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5121
+------Description: Accounts in national currency
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5124
+------Description: Accounts in foreign currencies
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 514
+----Description: Postal checks
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 515
+----Description: Treasury and public agency accounts
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 516
+----Description: Brokerage firms
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 517
+----Description: Other financial institutions
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 518
+----Description: Accrued interest
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5181
+------Description: Accrued interest payable
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5188
+------Description: Accrued interest receivable
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 519
+----Description: Short term bank advances
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5191
+------Description: Accounts receivable loans
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5193
+------Description: Assignment of foreign accounts receivable
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5198
+------Description: Accrued interest on short term bank advances
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 52
+--Description: Derivative financial instruments and tokens held
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 521
+----Description: Derivative financial instruments
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 522
+----Description: Tokens held
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 523
+----Description: Own tokens
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 524
+----Description: Borrowed tokens
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 53
+--Description: Cash on hand
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 531
+----Description: Cash on hand at Head Office
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5311
+------Description: Cash on hand in national currency
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5314
+------Description: Cash on hand in foreign currency
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 532
+----Description: Cash on hand at branch (or factory) A
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 533
+----Description: Cash on hand at branch (or factory) B
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 54
+--Description: Imprest accounts and letters of credit
+--Balance: 0
+--Transactions:
+    No transactions
+
+--Account Number: 58
+--Description: Internal transfers
+--Balance: 0
+--Transactions:
+    No transactions
+
+--Account Number: 59
+--Description: Provisions for impairment of current financial assets
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 590
+----Description: Provisions for impairment of marketable securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 5903
+------Description: Shares
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5904
+------Description: Other equity securities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5906
+------Description: Bonds
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 5908
+------Description: Other marketable securities and similar receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+Account Number: 6
+Description: EXPENSES
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 60
+--Description: Purchases (except account 603)
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 601
+----Description: Inventory purchases - Raw materials (and supplies)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6011
+------Description: Materials (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6012
+------Description: Materials (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6017
+------Description: "Supplies A, B, C, ."
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 603
+----Description: Changes in inventory (supplies and goods for resale)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6031
+------Description: Changes in inventory of raw materials (and supplies)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6032
+------Description: Changes in inventory of other consumables
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6037
+------Description: Changes in inventory of goods for resale
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 602
+----Description: Inventory purchases - Other consumables
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6021
+------Description: Consumable materials
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 60211
+--------Description: Materials (or range) C
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 60212
+--------Description: Materials (or range) D
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6022
+------Description: Consumable supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 60221
+--------Description: Fuels
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 60222
+--------Description: Cleaning products
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 60223
+--------Description: Workshop and factory supplies
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 60224
+--------Description: Store supplies
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 60225
+--------Description: Office supplies
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6026
+------Description: Packaging
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 60261
+--------Description: Lost packaging
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 60265
+--------Description: Unidentifiable recoverable packaging
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 60267
+--------Description: Mixed-use packaging
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 604
+----Description: Purchase of studies and services
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 605
+----Description: "Purchases of equipment, facilities and works"
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 606
+----Description: Non-inventory materials and supplies
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6061
+------Description: "Utilities (water, energy, ...)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6063
+------Description: Maintenance and small equipment supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6064
+------Description: Office supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6068
+------Description: Other materials and supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 607
+----Description: Purchases of goods for resale
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6071
+------Description: Goods for resale (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6072
+------Description: Goods for resale (or range) B
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 608
+----Description: "Account reserved, if applicable, for the summary of ancillary purchase costs"
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 609
+----Description: "Allowances, discounts, rebates received on purchases of :"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6091
+------Description: raw materials (and supplies)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6092
+------Description: other inventoried supplies
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6094
+------Description: studies and services
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6095
+------Description: "equipment, facilities and works"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6096
+------Description: non inventory items (supplies)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6097
+------Description: goods for resale
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6098
+------Description: "unallocated allowances, discounts, rebates"
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 61
+--Description: External services
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 611
+----Description: Subcontracting
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 612
+----Description: Lease payments
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6122
+------Description: Equipment leasing
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6125
+------Description: Real estate leasing
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 613
+----Description: Rental
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6132
+------Description: Real estate rental
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6135
+------Description: Rental of movable property
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6136
+------Description: Losses on packaging
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 614
+----Description: Occupancy costs and condominium fees
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 615
+----Description: Maintenance and repairs
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6152
+------Description: on real estate
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6155
+------Description: on movable property
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6156
+------Description: Maintenance
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 616
+----Description: Insurance premiums
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6161
+------Description: Multi-peril insurance
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6162
+------Description: Compulsory construction damage insurance
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6163
+------Description: Transport insurance
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 61636
+--------Description: purchased goods
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 61637
+--------Description: sold goods
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 61638
+--------Description: other goods
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6164
+------Description: Operating risks
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6165
+------Description: Client insolvency
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 617
+----Description: Study and research
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 618
+----Description: Sundry
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6181
+------Description: Documentation
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6183
+------Description: Technical documentation
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6185
+------Description: "Symposium, seminar, conference expenses"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 619
+----Description: "Allowances, discounts, rebates received on external services"
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 62
+--Description: Other external services
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 621
+----Description: External employees
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6211
+------Description: Temps
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6214
+------Description: Seconded staff and staff on loan
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 622
+----Description: Agent commissions and fees
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6221
+------Description: Commissions and brokerage fees for purchases
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6222
+------Description: Commissions and brokerage fees for sales
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6224
+------Description: Freight forwarding costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6225
+------Description: Factoring fees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6226
+------Description: Fees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6227
+------Description: Legal and litigation fees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6228
+------Description: Sundry
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 623
+----Description: "Advertising, publications, public relations"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6231
+------Description: Announcements and advertisements
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6232
+------Description: Samples
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6233
+------Description: Fairs and exhibitions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6234
+------Description: Gifts to customers
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6235
+------Description: Premiums
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6236
+------Description: Catalogs and prints
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6237
+------Description: Publications
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6238
+------Description: "Sundry (tips, current donations, ...)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 624
+----Description: Transport of goods and collective transport of employees
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6241
+------Description: Freight-in
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6242
+------Description: Freight-out
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6243
+------Description: Transportation between establishments or worksites
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6244
+------Description: Administrative transport
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6247
+------Description: Collective transport of employees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6248
+------Description: Sundry
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 625
+----Description: "Travel, assignments and entertainment expenses"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6251
+------Description: Travel and trips
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6255
+------Description: Moving costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6256
+------Description: Assignments
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6257
+------Description: Entertainment expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 626
+----Description: Postage and telecommunication costs
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 627
+----Description: Banking and similar services
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6271
+------Description: "Securities fees (purchase, sale, custody)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6272
+------Description: Loan issuance costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6275
+------Description: "Fees and commissions related to bills, bills of exchange"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6276
+------Description: Safe deposit box rental
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6278
+------Description: Other fees and commissions on services
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 628
+----Description: Sundry
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6281
+------Description: "Various assistance (contributions, ...)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6284
+------Description: Recruitment costs
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 629
+----Description: "Allowances, discounts, rebates received on other external services"
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 63
+--Description: "Taxes, duties and similar payments"
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 631
+----Description: "Taxes, duties and similar payments on payroll (to tax authorities)"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6311
+------Description: Payroll taxes
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6312
+------Description: Apprenticeship tax
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6313
+------Description: Employer participation to lifelong professional training
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6314
+------Description: Adjustement of contribution for housing construction
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6318
+------Description: Other
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 633
+----Description: "Taxes, duties and similar payments on payroll (to other bodies)"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6331
+------Description: Transport tax (contribution to public transports)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6332
+------Description: Contributions to the National Fund for Housing (FNAL)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6333
+------Description: Employer participation to lifelong professional training
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6334
+------Description: Contribution for housing construction
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6335
+------Description: Payment in full discharge eligible for the apprenticeship tax exemption
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6338
+------Description: Other
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 635
+----Description: "Other taxes, duties and similar payments (to tax authorities)"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6351
+------Description: Direct taxes (except income tax)
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 63511
+--------Description: Local economic contribution (CET)
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 63512
+--------Description: Property taxes
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 63513
+--------Description: Other local taxes
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 63514
+--------Description: Company vehicle tax
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6352
+------Description: Non-recoverable V.A.T.
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6353
+------Description: Indirect taxes
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6354
+------Description: Stamp duty and registration fees
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 63541
+--------Description: Transfer duty
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6358
+------Description: Other duties
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 637
+----Description: "Other taxes, duties and similar payments (to other bodies)"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6371
+------Description: Social solidarity contribution (C3S)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6372
+------Description: Taxes collected by international public bodies
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6374
+------Description: Taxes and duties payable in foreign countries
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6378
+------Description: Various taxes
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 64
+--Description: Payroll expenses
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 641
+----Description: Employee compensation
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6411
+------Description: "Salaries, wages"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6412
+------Description: Vacation pay
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6413
+------Description: Bonuses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6414
+------Description: Allowances and other benefits
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6415
+------Description: Family income supplement
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 644
+----Description: Sole proprietor salary
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 645
+----Description: "Contributions to social security, pension and similar schemes"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6451
+------Description: URSSAF contributions (social security)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6452
+------Description: Mutual insurance contributions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6453
+------Description: Pension contributions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6454
+------Description: ASSEDIC contributions (unemployment insurance)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6458
+------Description: Other social contributions
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 646
+----Description: Sole proprietor social security contributions
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 647
+----Description: Other social expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6471
+------Description: Direct allowances
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6472
+------Description: Contributions to works councils and establishment committees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6473
+------Description: Contributions to health and safety committees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6474
+------Description: Contributions to other social and cultural activities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6475
+------Description: "Occupational medicine, pharmacy"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 648
+----Description: Other payroll expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 65
+--Description: Other operating expenses
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 651
+----Description: "Royalties and licence fees for concessions, patents, licenses, trademarks, processes, IT solutions, rights and similar assets"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6511
+------Description: "Royalties and licence fees for concessions, patents, licenses, trademarks, processes, IT solutions"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6516
+------Description: Copyright and reproduction rights
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6518
+------Description: Royalties and licence fees for other rights and similar assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 653
+----Description: Attendance fees
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 654
+----Description: Bad debts written off
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6541
+------Description: Accounts receivable for the financial year
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6544
+------Description: Accounts receivable for the previous financial years
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 655
+----Description: Share of profit or loss from joint ventures
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6551
+------Description: Share of profits transferred (accounting of the managing partner)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6555
+------Description: Share of loss (accounting of the non-managing partners)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 656
+----Description: Foreign exchange losses on trade receivables and payables
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 658
+----Description: Sundry operating expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 66
+--Description: Financial expenses
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 661
+----Description: Interest expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6611
+------Description: Interest on loans and debts
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 66116
+--------Description: on loans and similar debts
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 66117
+--------Description: on debts related to equity interests
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6612
+------Description: "Trust expenses, profit or loss for the financial year"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6615
+------Description: Interest on current accounts and credit balance deposit
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6616
+------Description: "Interest on bank and financing transactions (discount,...)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6617
+------Description: Interest on guaranteed bonds
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6618
+------Description: Interest on other debts
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 66181
+--------Description: on trade debts
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 66188
+--------Description: on soundry debts
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 664
+----Description: Loss on receivables from equity interests
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 665
+----Description: Discounts given
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 666
+----Description: Financial foreign exchange losses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6661
+------Description: Losses from sales of tokens
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 667
+----Description: Losses from sales of marketable securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 668
+----Description: Other financial expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 67
+--Description: Exceptional expenses
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 671
+----Description: Exceptional expenses from operating transactions
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6711
+------Description: Market penalties (and forfeits paid on purchases and sales)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6712
+------Description: "Fines, tax and criminal penalties"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6713
+------Description: "Donations, gifts"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6714
+------Description: Bad debts written off for the financial year
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6715
+------Description: Grants awarded
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6717
+------Description: Additional taxes claimed (other than income tax)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6718
+------Description: Other exceptional expenses from operations
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 672
+----Description: Account to be used to record the expenses for previous financial years
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 674
+----Description: Transactions of setting-up or liquidation of trusts
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6741
+------Description: Transactions related to the setting-up of the trust - Transfer of assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6742
+------Description: Transactions related to the luiquidation of the trust
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 675
+----Description: Book value of assets sold
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6751
+------Description: Intangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6752
+------Description: Tangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6756
+------Description: Financial fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6758
+------Description: Other assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 678
+----Description: Other exceptional expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6781
+------Description: Losses from indexation clauses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6782
+------Description: Prizes
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6783
+------Description: Losses from buy-back of own shares and bonds
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6788
+------Description: Sundry exceptional expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 68
+--Description: "Depreciation, amortization, impairment and provisions"
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 681
+----Description: "Depreciation, amortization, impairment and provisions - Operating expenses"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6811
+------Description: Depreciation and amortization expenses of fixed tangible and intangible assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 68111
+--------Description: Intangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 68112
+--------Description: Tangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6812
+------Description: Amortization of deferred operating expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6815
+------Description: Increase in provisions for operating liabilities and expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6816
+------Description: Impairment losses of intangible and tangible assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 68161
+--------Description: Intangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 68162
+--------Description: Tangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6817
+------Description: Impairment losses of current assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 68173
+--------Description: Inventory and work in progress
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 68174
+--------Description: Receivables-
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 686
+----Description: "Amortization, impairment and provisions - Financial expenses"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6861
+------Description: Amortizaton expenses of debenture redemption premiums
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6865
+------Description: Increase in provisions for financial liabilities and expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6866
+------Description: Impairment losses of financial assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 68662
+--------Description: Financial fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 68665
+--------Description: Marketable securities
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6868
+------Description: Other expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 687
+----Description: "Depreciation, amortization, impairment and provisions - Exceptional expenses"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6871
+------Description: Exceptional depreciation and amortization expenses of fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6872
+------Description: Increase in regulated provisions
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 68725
+--------Description: Derogatory depreciation
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 6873
+------Description: Increase in regulated provisions relating to inventory
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6874
+------Description: Increase in other regulated provisions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6875
+------Description: Increase in exceptional provisions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6876
+------Description: Exceptional impairment losses
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 69
+--Description: Employee profit-sharing - Income taxes and similar taxes
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 691
+----Description: Employee profit-sharing
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 695
+----Description: Income taxes
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6951
+------Description: Income taxes payable in France
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6952
+------Description: Additional contribution to income tax
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6954
+------Description: Income taxes payable in foreign countries
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 696
+----Description: Additional contribution to corporate income tax due on dividends paid out
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 698
+----Description: Tax consolidation
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6981
+------Description: Tax consolidation - Expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6989
+------Description: Tax consolidation - Income
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 699
+----Description: Income - Carry-back of losses
+----Balance: 0
+----Transactions:
+      No transactions
+
+Account Number: 7
+Description: REVENUES
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 70
+--Description: "Sales of manufactured goods, services and goods for resale"
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 701
+----Description: Sales of finished goods
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7011
+------Description: Finished goods (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7012
+------Description: Finished goods (or range) B
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 702
+----Description: Sales of intermediate goods
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 703
+----Description: Sales of residual goods
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 704
+----Description: Works
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7041
+------Description: Works of category (or activity) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7042
+------Description: Works of category (or activity) B
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 705
+----Description: Studies
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 706
+----Description: Services
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 707
+----Description: Sales of goods for resale
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7071
+------Description: Goods for resale (or range) A
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7072
+------Description: Goods for resale (or range) B
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 708
+----Description: Ancillary income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7081
+------Description: Income from services operated for the benefit of the employees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7082
+------Description: Commissions and brokerage fees
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7083
+------Description: Sundry rentals
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7084
+------Description: Secondment income
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7085
+------Description: Income from transportation and ancillary costs charged
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7086
+------Description: Profit on returnable packaging recovery
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7087
+------Description: Bonuses received from customers and sales premiums
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7088
+------Description: "Other ancillary income (sale of supplies,)"
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 709
+----Description: "Sales allowances, discounts, rebates given"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7091
+------Description: on finished goods
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7092
+------Description: on intermediate goods
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7094
+------Description: on works
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7095
+------Description: on studies
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7096
+------Description: on services
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7097
+------Description: on goods for resale
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7098
+------Description: on ancillary goods and services
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 71
+--Description: Changes in inventory of finished goods and work in progress
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 713
+----Description: "Changes in inventory (work in progress, goods)"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7133
+------Description: Changes in work in progress of goods
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 71331
+--------Description: Goods in progress
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 71335
+--------Description: Works in progress
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 7134
+------Description: Changes in work in progress of services
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 71341
+--------Description: Studies in progress
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 71345
+--------Description: Services in progress
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 7135
+------Description: Changes in inventory of goods
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 71351
+--------Description: Intermediate goods
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 71355
+--------Description: Finished goods
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 71358
+--------Description: Residual goods
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--Account Number: 72
+--Description: Own work capitalized
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 721
+----Description: Intangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 722
+----Description: Tangible fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 74
+--Description: Operating grants
+--Balance: 0
+--Transactions:
+    No transactions
+
+--Account Number: 75
+--Description: Other operating income
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 751
+----Description: "Royalties and licence fees for concessions, patents, licenses, trademarks, processes, IT solutions, rights and similar assets"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7511
+------Description: "Royalties and licence fees for concessions, patents, licenses, trademarks, processes, IT solutions"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7516
+------Description: Copyright and reproduction rights
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7518
+------Description: Royalties and licence fees for other rights and similar assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 752
+----Description: Income from buildings not assigned to business activities
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 753
+----Description: "Attendance fees, directors and managers fees and compensation"
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 754
+----Description: Surplus from cooperatives
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 755
+----Description: Share of profit or loss from joint ventures
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7551
+------Description: Share of loss (accounting of the managing partner)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7555
+------Description: Share of profits transferred (accounting of the non-managing partners)
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 756
+----Description: Foreign exchange gains on trade receivables and payables
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 758
+----Description: Sundry operating income
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 76
+--Description: Financial income
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 761
+----Description: Income from equity interests
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7611
+------Description: Income from equity investments
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7612
+------Description: "Income from the trust, profit or loss for the financial year"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7616
+------Description: Income from other types of equity interests
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7617
+------Description: Income from receivables related to equity interests
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 762
+----Description: Income from other financial fixed assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7621
+------Description: Income from long-term securities
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7626
+------Description: Income from loans
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7627
+------Description: Income from long-term receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 763
+----Description: Income from other receivables
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7631
+------Description: Income from trade receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7638
+------Description: Income from sundry receivables
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 764
+----Description: Income from marketable securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 765
+----Description: Discounts received
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 766
+----Description: Financial foreign exchange gains
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7661
+------Description: Net income from sales of tokens
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 767
+----Description: Net income from sales of marketable securities
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 768
+----Description: Other financial income
+----Balance: 0
+----Transactions:
+      No transactions
+
+--Account Number: 77
+--Description: Exceptional income
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 771
+----Description: Exceptional income from operating transactions
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7711
+------Description: Forfeits and penalties collected on purchases and sales
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7713
+------Description: "Donations, gifts received"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7714
+------Description: Collection of bad debts written off
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7715
+------Description: Loss compensation grants
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7717
+------Description: Tax refunds other than income taxes
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7718
+------Description: Other exceptional incom from operations
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 772
+----Description: Account to be used to record the income for previous financial years
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 774
+----Description: Transactions of setting-up or liquidation of trusts
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7741
+------Description: Transactions related to the setting-up of the trust - Transfer of assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7742
+------Description: Transactions related to the luiquidation of the trust
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 775
+----Description: Income from sale of assets
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7751
+------Description: Intangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7752
+------Description: Tangible fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7756
+------Description: Financial fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7758
+------Description: Other assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 777
+----Description: Share of investment grants transferred to income for the financial year
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 778
+----Description: Other exceptional income
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7781
+------Description: Gains from indexation clauses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7782
+------Description: Prizes
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7783
+------Description: Profit from buy-back of own shares and bonds
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7788
+------Description: Sundry exceptional income
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 78
+--Description: "Reversal of depreciation, amortization, impairment and provisions"
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 781
+----Description: "Reversal of depreciation, amortization, impairment losses and provisions (Operating income)"
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7811
+------Description: Reversal of depreciation and amortization of fixed tangible and intangible assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 78111
+--------Description: Intangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 78112
+--------Description: Tangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 7815
+------Description: Reversal of provisions for operating liabilities and expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7816
+------Description: Reversal of impairment losses of intangible and tangible assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 78161
+--------Description: Intangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 78162
+--------Description: Tangible fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 7817
+------Description: Reversal of impairment losses of current assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 78173
+--------Description: Inventory and work in progress
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 78174
+--------Description: Receivables
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 786
+----Description: Reversal of provisions for liabilities and impairment losses (Financial income)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7865
+------Description: Reversal of provisions for financial liabilities and expenses
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7866
+------Description: Reversal of impairment losses of financial assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 78662
+--------Description: Financial fixed assets
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 78665
+--------Description: Marketable securities
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+----Account Number: 787
+----Description: Reversal of provisions and impairment losses (Exceptional income)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 7872
+------Description: Reversal of regulated provisions relating to fixed assets
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 78725
+--------Description: Derogatory depreciation
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 78726
+--------Description: Special revaluation provision
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 78727
+--------Description: Reinvested capital gains
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 7873
+------Description: Reversal of regulated provisions relating to inventory
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7874
+------Description: Reversal of other regulated provisions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7875
+------Description: Reversal of exceptional provisions
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 7876
+------Description: Reversal of exceptional impairment losses
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 79
+--Description: Transfers of expenses
+--Balance: 0
+--Transactions:
+    No transactions
+
+----Account Number: 791
+----Description: Transfers of operating expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 796
+----Description: Transfers of financial expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 797
+----Description: Transfers of exceptional expenses
+----Balance: 0
+----Transactions:
+      No transactions
+
+Account Number: 8
+Description: SPECIAL ACCOUNTS
+Balance: -142
+Transactions:
+  No transactions
+
+--Account Number: 80
+--Description: Commitments
+--Balance: -142
+--Transactions:
+    No transactions
+
+----Account Number: 801
+----Description: Commitments made by the entity
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 8011
+------Description: "Bonds, sureties, guarantees"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 8014
+------Description: Bills in circulation endorsed by the entity
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 8016
+------Description: Upcoming leasing payments
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 80161
+--------Description: Equipment leasing
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 80165
+--------Description: Real estate leasing
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 8018
+------Description: Other commitments made
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 802
+----Description: Commitments received by the entity
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 8021
+------Description: "Bonds, sureties, guarantees"
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 8024
+------Description: Discounted receivables not yet due
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 8026
+------Description: Leasing commitments received
+------Balance: 0
+------Transactions:
+        No transactions
+
+--------Account Number: 80261
+--------Description: Equipment leasing
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+--------Account Number: 80265
+--------Description: Real estate leasing
+--------Balance: 0
+--------Transactions:
+          No transactions
+
+------Account Number: 8028
+------Description: Other commitments received
+------Balance: 0
+------Transactions:
+        No transactions
+
+----Account Number: 809
+----Description: Commitments counterpart
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 8091
+------Description: Counterpart 801
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 8092
+------Description: Counterpart 802
+------Balance: 0
+------Transactions:
+        No transactions
+
+--Account Number: 88
+--Description: Profit and loss pending appropriation
+--Balance: -142
+--Transactions:
+    No transactions
+
+--Account Number: 89
+--Description: Balance sheet
+--Balance: -142
+--Transactions:
+    No transactions
+
+----Account Number: 890
+----Description: Opening balance sheet
+----Balance: -142
+----Transactions:
+      No transactions
+
+----Account Number: 891
+----Description: Closing balance sheet
+----Balance: -142
+----Transactions:
+      	 Transaction ID: 10
+	 Amount: 142.00
+	 Type: Credit
+
+
