@@ -1,6 +1,9 @@
 #include "Transaction.h"
 
 // Constructor
+Transaction::Transaction(int id)
+    : id(id), amount(0.0), type('D') {}
+
 Transaction::Transaction(int id, double amount, char type)
     : id(id), amount(amount), type(type) {}
 

@@ -12,6 +12,7 @@ class Transaction {
         char type;
 
     public:
+        Transaction(int);
         Transaction(int, double, char);
 
         // Getters

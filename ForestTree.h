@@ -25,11 +25,8 @@ class ForestTree {
 
         nodePtr searchAccount(int) const;
         void findAccount(int) const;
-        void updateTransaction(const int, double) const;
-        // nodePtr updateTransaction(const int, double) const;
         void addAcountTransaction(const int, const Transaction &);
-        // void removeTransaction(const int, const Transaction &);
-        void removeTransaction(const int, const int);
+        void removeAccountTransaction(const int, const int);
 
 
         void printTree(nodePtr, int, ostream &) const;

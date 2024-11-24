@@ -20,12 +20,10 @@ public:
   Account();
   Account(int, const string &, double);
   void addTransaction(const Transaction &);
-  void removeTransaction(int);
-  // Transaction removeTransaction(int);
+  Transaction removeTransaction(int);
   void updateBalance(double);
   bool compAccountNumber(const int) const;
-  // vector<double> findTransaction(const int) const;
-  const Transaction* findTransaction(const int) const;
+  Transaction findTransaction(const int) const;
   
   // Getters
   int getAccountNumber() const;
@@ -33,7 +31,6 @@ public:
   string getDescription() const;
   const vector<Transaction>& getTransactions() const;
 
-  //bool operator<(const Account & acc) const;
   friend istream& operator>>(istream &, Account &);
   friend ostream& operator<<(ostream &, const Account &);
 };

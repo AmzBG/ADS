@@ -25,27 +25,32 @@ const vector<Transaction>& Account::getTransactions() const {
 }
 
 void Account::addTransaction(const Transaction &trans) {
+    // update account balance
     updateBalance(trans.getAmount());
     transactions.push_back(trans);  
 }
 
-void Account::removeTransaction(int id) {
+Transaction Account::removeTransaction(int id) {
     for (auto it = transactions.begin(); it != transactions.end(); it++) {
         if (it->getId() == id) {
+            // update account balance
+            Transaction trans = *it;
+            updateBalance(it->getAmount() * (it->getType() == 'D' ? -1 : 1));
             transactions.erase(it);
             cout << "Transaction successfully removed!!\n";
-            return;
+            return trans;
         }
     }
     cerr << "Transaction not found!!\n";
+    return Transaction(-1);
 }
 
-const Transaction* Account::findTransaction(const int transactionID) const{
+Transaction Account::findTransaction(const int transactionID) const{
     for(auto & trans : transactions) {
         if (trans.getId() == transactionID)
-            return &trans;
+            return trans;
     }
-    return nullptr;
+    return Transaction(-1);
 }
 
 void Account::updateBalance(double amount) {

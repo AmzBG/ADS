@@ -110,39 +110,6 @@ void ForestTree::findAccount(int accountNum) const {
     }
 }
 
-void ForestTree::updateTransaction(const int accountNum, double balance) const {
-    nodePtr currNode = root, behind;
-    
-    while (currNode != nullptr) {
-        int currNodeAccountNum = currNode->data.getAccountNumber();
-
-        // Update balance
-        currNode->data.updateBalance(balance);
-        
-        if (currNode->data.compAccountNumber(accountNum)) {
-            // Account found
-            if (accountNum == currNodeAccountNum) {
-                return;
-            }
-
-            // Move down to the child
-            if (ceil(log10(currNodeAccountNum)) != ceil(log10(accountNum)) && currNode->child != nullptr) {
-                behind = currNode;
-                currNode = currNode->child;
-                continue;
-            }
-        }
-
-        // Move to sibling
-        behind = currNode;
-        currNode = currNode->sibling;
-    }
-
-    // Account not found
-    cout << "Account not found:" << accountNum << endl;
-    return;
-}
-
 void ForestTree::addAcountTransaction(const int accountNum, const Transaction & t) {
     nodePtr currNode = root;
     vector<Account*> accountsPassedThrough;
@@ -172,21 +139,36 @@ void ForestTree::addAcountTransaction(const int accountNum, const Transaction & 
     }
 }
 
-void ForestTree::removeTransaction(const int accountNum, const int transactionID) {
-    nodePtr ptr = searchAccount(accountNum);
-    if (ptr == nullptr) {
-        cerr << "Account does not exist!!\n";
+void ForestTree::removeAccountTransaction(const int accountNum, const int transactionID) {
+    nodePtr currNode = root;
+    vector<Account*> accountsPassedThrough;
+    while(currNode != nullptr) {
+        bool compRes = currNode->data.compAccountNumber(accountNum);
+        if (compRes && accountNum == currNode->data.getAccountNumber()) {
+            break;
+        }
+        // Add to path
+        accountsPassedThrough.push_back(&currNode->data);
+        // Move to child
+        if (compRes && ceil(log10(currNode->data.getAccountNumber())) != ceil(log10(accountNum)) && currNode->child != nullptr) {
+            currNode = currNode->child;
+        } 
+        // Move to sibling
+        else {
+            currNode = currNode->sibling;
+        }
+    }
+    if (currNode == nullptr || currNode->data.getAccountNumber() != accountNum) {
+        cerr << "Account not found!!\n";
         return;
     }
-    const Transaction* res = ptr->data.findTransaction(transactionID);
-    if (res == nullptr) {
-        cerr << "Transaction not found!!\n";
+    Transaction trans = currNode->data.removeTransaction(transactionID);
+    if (trans.getId() == -1) {
         return;
     }
-
-    double balance = res->getAmount() * (res->getType() == 'D' ? -1 : 1);
-    updateTransaction(accountNum, balance);
-    ptr->data.removeTransaction(transactionID);    
+    for(auto & acc : accountsPassedThrough) {
+        acc->updateBalance(trans.getAmount() * (trans.getType() == 'C' ? 1 : -1));
+    }
 }
 
 void ForestTree::buildTreeFromFile(const string &filePath) {
