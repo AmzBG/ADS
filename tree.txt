@@ -3640,30 +3640,6 @@ Transactions:
 ------Transactions:
         No transactions
 
-----Account Number: 603
-----Description: Changes in inventory (supplies and goods for resale)
-----Balance: 0
-----Transactions:
-      No transactions
-
-------Account Number: 6031
-------Description: Changes in inventory of raw materials (and supplies)
-------Balance: 0
-------Transactions:
-        No transactions
-
-------Account Number: 6032
-------Description: Changes in inventory of other consumables
-------Balance: 0
-------Transactions:
-        No transactions
-
-------Account Number: 6037
-------Description: Changes in inventory of goods for resale
-------Balance: 0
-------Transactions:
-        No transactions
-
 ----Account Number: 602
 ----Description: Inventory purchases - Other consumables
 ----Balance: 0
@@ -3747,6 +3723,30 @@ Transactions:
 --------Balance: 0
 --------Transactions:
           No transactions
+
+----Account Number: 603
+----Description: Changes in inventory (supplies and goods for resale)
+----Balance: 0
+----Transactions:
+      No transactions
+
+------Account Number: 6031
+------Description: Changes in inventory of raw materials (and supplies)
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6032
+------Description: Changes in inventory of other consumables
+------Balance: 0
+------Transactions:
+        No transactions
+
+------Account Number: 6037
+------Description: Changes in inventory of goods for resale
+------Balance: 0
+------Transactions:
+        No transactions
 
 ----Account Number: 604
 ----Description: Purchase of studies and services

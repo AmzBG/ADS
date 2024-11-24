@@ -25,7 +25,9 @@ int main() {
 
 
 
+    ft.removeAccountTransaction(1013, 4);
     ft.removeAccountTransaction(1013, 1);
+    ft.removeAccountTransaction(10, 6);
 
     ofstream tree("tree.txt");
     tree << ft;

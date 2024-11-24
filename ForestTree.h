@@ -23,7 +23,8 @@ class ForestTree {
         void buildTreeFromFile(const string &);
 
 
-        nodePtr searchAccount(int) const;
+        vector<nodePtr> searchAccount(int) const;
+        ForestTree::nodePtr searchAccountWithTracking(int, vector<Account*> &) const;
         void findAccount(int) const;
         void addAcountTransaction(const int, const Transaction &);
         void removeAccountTransaction(const int, const int);
