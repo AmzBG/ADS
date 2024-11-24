@@ -143,22 +143,33 @@ void ForestTree::updateTransaction(const int accountNum, double balance) const {
     return;
 }
 
-//! Traversing the tree 2 times (not efficient)
-/*
-1- Checking if account exists
-2- Update all Accounts/nodes along the way (traversal)
-*/
-void ForestTree::addTransaction(const int accountNum, const Transaction & t) {
-    nodePtr ptr = searchAccount(accountNum);
-    if (ptr == nullptr) {
+void ForestTree::addAcountTransaction(const int accountNum, const Transaction & t) {
+    nodePtr currNode = root;
+    vector<Account*> accountsPassedThrough;
+    while(currNode != nullptr) {
+        bool compRes = currNode->data.compAccountNumber(accountNum);
+        if (compRes && accountNum == currNode->data.getAccountNumber()) {
+            break;
+        }
+        // Add to path
+        accountsPassedThrough.push_back(&currNode->data);
+        // Move to child
+        if (compRes && ceil(log10(currNode->data.getAccountNumber())) != ceil(log10(accountNum)) && currNode->child != nullptr) {
+            currNode = currNode->child;
+        } 
+        // Move to sibling
+        else {
+            currNode = currNode->sibling;
+        }
+    }
+    if (currNode == nullptr || currNode->data.getAccountNumber() != accountNum) {
+        cerr << "Account not found!!\n";
         return;
     }
-
-    // Add transaction to account
-    ptr->data.addTransaction(t);
-    
-    double balance = t.getAmount() * (t.getType() == 'C' ? -1 : 1);
-    updateTransaction(accountNum, balance); 
+    currNode->data.addTransaction(t);
+    for(auto & acc : accountsPassedThrough) {
+        acc->updateBalance(t.getAmount() * (t.getType() == 'D' ? 1 : -1));
+    }
 }
 
 void ForestTree::removeTransaction(const int accountNum, const int transactionID) {

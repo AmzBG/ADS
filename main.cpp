@@ -8,13 +8,13 @@ int main() {
 
     ft.buildTreeFromFile(filePath);
 
-    // Transaction t1(1, 5.00, 'D');
+    Transaction t1(1, 5.00, 'D');
     // Transaction t2(2, 50.00, 'C');
     // Transaction t3(3, 100.00, 'D');
     // Transaction t4(4, 75.00, 'C');
 
     // ft.addTransaction(10131, t3);
-    // ft.addTransaction(1013, t1);
+    ft.addTransaction(1013, t1);
     // ft.addTransaction(1011, t2);
     // ft.addTransaction(10, t3);
     // ft.addTransaction(1, t4);

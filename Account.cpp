@@ -24,8 +24,9 @@ const vector<Transaction>& Account::getTransactions() const {
     return transactions;
 }
 
-void Account::addTransaction(const Transaction &transaction) {
-    transactions.push_back(transaction);  
+void Account::addTransaction(const Transaction &trans) {
+    updateBalance(trans.getAmount());
+    transactions.push_back(trans);  
 }
 
 void Account::removeTransaction(int id) {
