@@ -23,7 +23,7 @@ public:
   Transaction removeTransaction(int);
   void updateBalance(double);
   bool compAccountNumber(const int) const;
-  Transaction findTransaction(const int) const;
+  // Transaction findTransaction(const int) const;
   
   // Getters
   int getAccountNumber() const;

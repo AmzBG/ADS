@@ -26,7 +26,7 @@ const vector<Transaction>& Account::getTransactions() const {
 
 void Account::addTransaction(const Transaction &trans) {
     // update account balance
-    updateBalance(trans.getAmount());
+    updateBalance(trans.getAmount() * (trans.getType() == 'C' ? -1 : 1));
     transactions.push_back(trans);  
 }
 
@@ -45,13 +45,13 @@ Transaction Account::removeTransaction(int id) {
     return Transaction(-1);
 }
 
-Transaction Account::findTransaction(const int transactionID) const{
-    for(auto & trans : transactions) {
-        if (trans.getId() == transactionID)
-            return trans;
-    }
-    return Transaction(-1);
-}
+// Transaction Account::findTransaction(const int transactionID) const{
+//     for(auto & trans : transactions) {
+//         if (trans.getId() == transactionID)
+//             return trans;
+//     }
+//     return Transaction(-1);
+// }
 
 void Account::updateBalance(double amount) {
     balance += amount;

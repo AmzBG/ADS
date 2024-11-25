@@ -1,8 +1,11 @@
 #pragma once
 
 #include <fstream>
+#include <sstream> // online gdb
 #include <math.h>
 #include "Account.h"
+
+using namespace std; // online gdb
 
 class ForestTree {
     private:
@@ -23,8 +26,8 @@ class ForestTree {
         void buildTreeFromFile(const string &);
 
 
-        vector<nodePtr> searchAccount(int) const;
-        ForestTree::nodePtr searchAccountWithTracking(int, vector<Account*> &) const;
+        vector<nodePtr> searchAccountWithTracking(int, vector<Account*> &) const;
+        vector<nodePtr> searchAccountWithTracking(int) const;
         void findAccount(int) const;
         void addAcountTransaction(const int, const Transaction &);
         void removeAccountTransaction(const int, const int);
@@ -32,4 +35,10 @@ class ForestTree {
 
         void printTree(nodePtr, int, ostream &) const;
         friend ostream& operator<<(ostream &, const ForestTree &);
+
+
+        void printAccountRecursive(nodePtr, int, ostream &) const;
+        void printAccount(int) const;
+        void printTreeIntoFile(const string &);
+        void printTreeRecursive(nodePtr, ostream &);
 };

@@ -5976,13 +5976,13 @@ Transactions:
 
 Account Number: 8
 Description: SPECIAL ACCOUNTS
-Balance: 0
+Balance: 50
 Transactions:
   No transactions
 
 --Account Number: 80
 --Description: Commitments
---Balance: 0
+--Balance: -50
 --Transactions:
     No transactions
 
@@ -6070,6 +6070,12 @@ Transactions:
 ------Transactions:
         No transactions
 
+----Account Number: 803
+----Description: testin
+----Balance: -50
+----Transactions:
+      No transactions
+
 ----Account Number: 809
 ----Description: Commitments counterpart
 ----Balance: 0
@@ -6096,7 +6102,7 @@ Transactions:
 
 --Account Number: 89
 --Description: Balance sheet
---Balance: 0
+--Balance: 100
 --Transactions:
     No transactions
 
@@ -6109,6 +6115,12 @@ Transactions:
 ----Account Number: 891
 ----Description: Closing balance sheet
 ----Balance: 0
+----Transactions:
+      No transactions
+
+----Account Number: 892
+----Description: testin
+----Balance: 100
 ----Transactions:
       No transactions
 

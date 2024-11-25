@@ -19,8 +19,16 @@ void ForestTree::addAccount(const Account & acc) {
         return;
     }
 
+    vector<Account*> tracked;
     // res = { currNode, behind }
-    vector<nodePtr> res = searchAccount(accountNum);
+    vector<nodePtr> res = searchAccountWithTracking(accountNum, tracked);
+    
+    // acc.getBalance() == 0
+    if (!tracked.empty()) {
+        for(auto & account : tracked) {
+            account->updateBalance(acc.getBalance());
+        }
+    }
 
     if (res[0] != nullptr) {
         // Account already exists
@@ -30,7 +38,7 @@ void ForestTree::addAccount(const Account & acc) {
             return;
         }
         // First child (current: 10 - add: 10124)
-        if (ceil(log10(res[0]->data.getAccountNumber())) < ceil(log10(accountNum))) {
+        if (to_string(res[0]->data.getAccountNumber()).size() < to_string(accountNum).size()) {
             res[0]->child = newNode;
             return;
         }
@@ -40,11 +48,20 @@ void ForestTree::addAccount(const Account & acc) {
             if (res[1]->child == res[0]) {
                 newNode->sibling = res[0];
                 res[1]->child = newNode;
-            } 
-            // Insert between sibling and sibling (current: 1, 5 - add: 4)
+            }
             else {
-                newNode->sibling = res[0];
-                res[1]->sibling = newNode;
+                // Insert between sbilings, but with a child (current: 1, 45, 52 - add: 4)
+                if (to_string(res[0]->data.getAccountNumber()).size() > to_string(accountNum).size()) {
+                    newNode->sibling = res[0]->sibling;
+                    newNode->child = res[0];
+                    res[0]->sibling = nullptr;
+                    res[1]->sibling = newNode;
+                }
+                // Insert between sibling and sibling (current: 1, 5 - add: 4)
+                else {
+                    newNode->sibling = res[0];
+                    res[1]->sibling = newNode;
+                }
             }
             return;
         }
@@ -53,73 +70,54 @@ void ForestTree::addAccount(const Account & acc) {
     res[1]->sibling = newNode;
 }
 
-vector<ForestTree::nodePtr> ForestTree::searchAccount(int accountNum) const {
+vector<ForestTree::nodePtr> ForestTree::searchAccountWithTracking(int accountNum, vector<Account*> & tracked) const {
     nodePtr currNode = root, behind = nullptr;
-
-    while (currNode != nullptr) {
-        int currNodeAccountNum = currNode->data.getAccountNumber();
-
-        // doesn't get in unless accountNumbers match
+    while(currNode != nullptr) {
         if (currNode->data.compAccountNumber(accountNum)) {
-            // Account found
-            if (accountNum == currNodeAccountNum) {
-                return { currNode, behind };
+            if (accountNum == currNode->data.getAccountNumber()) {
+                break;
             }
+            // Add to path
+            tracked.push_back(&currNode->data);
+
             if (currNode->child == nullptr) {
-                return { currNode, behind };
+                break;
             }
-            // Move down to the child
+            // Move to child
             behind = currNode;
             currNode = currNode->child;
-        } else {
+        }
+        else {
             if (accountNum < currNode->data.getAccountNumber()) {
-                return { currNode, behind };   
+                break;   
             }
             // Move to sibling
             behind = currNode;
             currNode = currNode->sibling;
         }
     }
-
-    // // Account not found
-    // cout << "Account not found:" << accountNum << endl;
+    if (currNode == nullptr && behind == nullptr)
+        cerr << "Account not found\n";
     return { currNode, behind };
 }
 
-ForestTree::nodePtr ForestTree::searchAccountWithTracking(int accountNum, vector<Account*> & tracked) const
-{
-    nodePtr currNode = root;
-    while(currNode != nullptr) {
-        bool compRes = currNode->data.compAccountNumber(accountNum);
-        if (compRes && accountNum == currNode->data.getAccountNumber()) {
-            return currNode;
-        }
-        // Add to path
-        tracked.push_back(&currNode->data);
-        // Move to child
-        if (compRes && ceil(log10(currNode->data.getAccountNumber())) != ceil(log10(accountNum)) && currNode->child != nullptr) {
-            currNode = currNode->child;
-        } 
-        // Move to sibling
-        else {
-            currNode = currNode->sibling;
-        }
-    }
-    cerr << "Account not found!!\n";
-    return nullptr;
+vector<ForestTree::nodePtr> ForestTree::searchAccountWithTracking(int accountNum) const {
+    vector<Account*> dummy;
+    return searchAccountWithTracking(accountNum, dummy);
 }
 
-// Uses searchAccount
 void ForestTree::findAccount(int accountNum) const {
-    vector<nodePtr> res = searchAccount(accountNum);
+    vector<nodePtr> res = searchAccountWithTracking(accountNum);
     if (res[0] != nullptr && res[0]->data.getAccountNumber() == accountNum) {
-        cout << "Account Found:\n" << res[0];
+        cout << "Account Found:\n" << res[0]->data;
+    } else {
+        cerr << "Error: account with number: " << accountNum << " not found!!\n";
     }
 }
 
 void ForestTree::addAcountTransaction(const int accountNum, const Transaction & t) {
     vector<Account*> tracked;
-    nodePtr currNode = searchAccountWithTracking(accountNum, tracked);
+    nodePtr currNode = searchAccountWithTracking(accountNum, tracked)[0];
     if (currNode == nullptr || currNode->data.getAccountNumber() != accountNum) {
         return;
     }
@@ -131,7 +129,7 @@ void ForestTree::addAcountTransaction(const int accountNum, const Transaction & 
 
 void ForestTree::removeAccountTransaction(const int accountNum, const int transactionID) {
     vector<Account*> tracked;
-    nodePtr currNode = searchAccountWithTracking(accountNum, tracked);
+    nodePtr currNode = searchAccountWithTracking(accountNum, tracked)[0];
     if (currNode == nullptr || currNode->data.getAccountNumber() != accountNum) {
         return;
     }
@@ -189,4 +187,83 @@ void ForestTree::printTree(nodePtr node, int depth, ostream& out) const {
 ostream& operator<<(ostream& out, const ForestTree& tree) {
     tree.printTree(tree.root, 0, out);
     return out;
+}
+
+
+
+void ForestTree::printAccountRecursive(nodePtr node, int depth, ostream& out) const {
+    if (!node) return;
+    string description = node->data.getDescription();
+    // Check for the condition and remove the starting double quote if necessary
+    if (!description.empty() && description[0] == '"' && (description.size() <= 10 || description[9] != '"')) {
+        description = description.substr(1); // Remove the starting double quote
+    }
+    // Print current node with indentation based on depth
+    out << string(depth * 2, '-') << "Account Number: " << node->data.getAccountNumber() << '\n';
+    out << string(depth * 2, '-') << "Description: " << description.substr(0, 10)<< '\n';
+    out << string(depth * 2, '-') << "Balance: " << node->data.getBalance() << '\n';
+    out << string(depth * 2, '-') << "Transactions:\n";
+    const vector<Transaction>& transactions = node->data.getTransactions();
+    if (transactions.empty()) {
+        out << string((depth + 1) * 2, ' ') << "No transactions\n";
+    } else {
+        for (const auto& transaction : transactions) {
+            out << string((depth + 1) * 2, ' ') << transaction << '\n';
+        }
+    }
+    out << '\n';
+    // recall function
+    printAccountRecursive(node->child, depth + 1, out);
+    if (depth != 0) {
+        printAccountRecursive(node->sibling, depth, out);
+    }
+}
+
+
+void ForestTree::printAccount(int accountNum) const {
+ vector<nodePtr> res = searchAccountWithTracking(accountNum);
+ 
+    if (res[0] != nullptr && res[0]->data.getAccountNumber() == accountNum) {
+        string fileName=to_string(res[0]->data.getAccountNumber());
+            ofstream outFile("Account "+fileName);
+        if (!outFile.is_open()) {
+            cerr << "Error: Unable to open file: " << fileName << endl;
+            return;
+        }
+       printAccountRecursive(res[0],0,outFile);
+    }
+}
+
+
+void ForestTree::printTreeIntoFile(const string& fileName) {
+    // Open the file for writing
+    ofstream outFile(fileName);
+    if (!outFile.is_open()) {
+        cerr << "Error: Unable to open file: " << fileName << endl;
+        return;
+    }
+        nodePtr node = root;
+        
+        if (!node){
+        cout<< "empty tree";
+        outFile.close();
+        return;}
+    
+    // Recursive traversal and printing
+    printTreeRecursive(node, outFile);
+
+    // Close the file
+    outFile.close();
+}
+
+void ForestTree::printTreeRecursive(nodePtr node, ostream& out) {
+    if (!node) return;
+    // Write current node data to the stream
+    out << node->data.getAccountNumber()<<" "
+        << node->data.getDescription()<<" "
+        << node->data.getBalance() << '\n';
+
+    // Recursively print child and sibling nodes
+    printTreeRecursive(node->child, out);
+    printTreeRecursive(node->sibling, out);
 }
