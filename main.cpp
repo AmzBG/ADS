@@ -8,15 +8,15 @@ int main() {
 	int choice;
 
 	do {
-		cout << "\n*** Chart of Accounts Menu ***" << endl;
-		cout << "1. Build Chart of Accounts (Read from a text file)" << endl;
-		cout << "2. Add an Account" << endl;
-		cout << "3. Add a Transaction or Delete a Transaction" << endl;
-		cout << "4. Print a Detailed Report for an Account (Includes Subaccounts and Transactions)" << endl;
-		cout << "5. Search for an Account by Number" << endl;
-		cout << "6. Print the Forest Tree into a File" << endl;
-		cout << "7. Print the Forest Tree into a file with all transactions " << endl;
-		cout << "0. Exit" << endl;
+		cout << "\n*** Chart of Accounts Menu ***\n";
+		cout << "1. Build Chart of Accounts (Read from a text file)\n";
+		cout << "2. Add an Account\n";
+		cout << "3. Add a Transaction or Delete a Transaction\n";
+		cout << "4. Print a Detailed Report for an Account (Includes Subaccounts and Transactions)\n";
+		cout << "5. Search for an Account by Number\n";
+		cout << "6. Print the Forest Tree into a File\n";
+		cout << "7. Print the Forest Tree into a file with all transactions \n";
+		cout << "0. Exit\n";
 		cout << "Enter your choice: ";
 		cin >> choice;
 
@@ -44,8 +44,10 @@ int main() {
 				double balance;
 				string description;
 
-				cout << "Enter account number: ";
-				cin >> number;
+				do {
+					cout << "Enter account number: ";
+					cin >> number;
+				} while(number <= 0);
 				cout << "Enter account balance: ";
 				cin >> balance;
 				cout << "Enter account description: ";
@@ -53,7 +55,7 @@ int main() {
 				getline(cin, description);
 
 				if(forest.addAccount(number, description, balance)) {
-					cout << "Account added successfully!" << endl;
+					cout << "Account added successfully!\n";
 				}
 
 				string repeat;
@@ -66,8 +68,10 @@ int main() {
 		case 3: {
 			do {
 				int accNumber;
-				cout << "Enter the account number: ";
-				cin >> accNumber;
+				do {
+					cout << "Enter the account number: ";
+					cin >> accNumber;
+				} while(accNumber <= 0);
 
 				string operation;
 				cout << "Enter 'add' to add a transaction or 'delete' to delete a transaction: ";
@@ -82,11 +86,11 @@ int main() {
                     do {
                         cout << "Enter transaction ID to delete: ";
                         cin >> transId;
-                    } while(transId < 0);
+                    } while(transId <= 0);
 
 					forest.removeAccountTransaction(accNumber, transId);
 				} else {
-					cout << "Invalid operation! Please enter 'add' or 'delete'." << endl;
+					cout << "Invalid operation! Please enter 'add' or 'delete'.\n";
 				}
 				string repeat;
 				cout << "Do you want to perform another transaction operation? (yes/no): ";
@@ -127,7 +131,7 @@ int main() {
                 cout << "Enter the file name to print the forest tree: ";
                 cin >> fileName;
                 if (forest.printTreeIntoFile(fileName)) {
-                    cout << "Forest tree successfully printed into the file!" << endl;
+                    cout << "Forest tree successfully printed into the file!\n";
                 }
                 break;
             }
@@ -135,20 +139,20 @@ int main() {
 				string fileName;
 				cout << "Enter the file name to print the forest tree with all transactions: ";
 				cin >> fileName;
-                string folderName = "Extra features/";
+                string folderName = "Extra_features/";
                 if (!filesystem::exists(folderName)) {
                     filesystem::create_directory(folderName);
                 }
-                ofstream outFile(folderName + fileName + ".txt");
+                ofstream outFile(folderName + fileName + (fileName.find(".txt") != string::npos ? "" : ".txt"));
                 outFile << forest;
                 break;
 		}
 		case 0: {
-			cout << "Exiting program. Goodbye!" << endl;
+			cout << "Exiting program. Goodbye!\n";
 			break;
 		}
 		default:
-			cout << "Invalid choice! Please try again." << endl;
+			cout << "Invalid choice! Please try again.\n";
 		}
 	} while (choice != 0);
 

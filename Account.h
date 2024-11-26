@@ -23,13 +23,18 @@ public:
   Transaction removeTransaction(int);
   void updateBalance(double);
   bool compAccountNumber(const int) const;
-  // Transaction findTransaction(const int) const;
+  void radixSortTransactions();
+  void countingSortByDigit(vector<Transaction> &, int);
+  vector<Transaction>::iterator findTransaction(int);
   
   // Getters
   int getAccountNumber() const;
   double getBalance() const;
   string getDescription() const;
   const vector<Transaction>& getTransactions() const;
+
+  // Setters
+  void setAccountNumber(int);
 
   friend istream& operator>>(istream &, Account &);
   friend ostream& operator<<(ostream &, const Account &);

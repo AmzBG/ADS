@@ -24,11 +24,11 @@ class Transaction {
 
         // Setters
         bool setType(char);
+        void setId(int);
 
         void printWithIndentation(int, ostream &) const;
 
         // Operators
-        bool operator<(const Transaction &) const; // used for sorting
         friend ostream& operator<<(ostream &, const Transaction &);
         friend istream& operator>>(istream &, Transaction &);
 };

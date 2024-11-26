@@ -2,13 +2,15 @@
 
 // Constructors
 Transaction::Transaction()
-    : id(0), amount(0.0), type('D') {}
+ : id(0), amount(0.0), type('D') {}
 
 Transaction::Transaction(int id)
-    : id(id), amount(0.0), type('D') {}
+ : id(id), amount(0.0), type('D') {}
 
 Transaction::Transaction(int id, double amount, char type)
-    : id(id), amount(amount), type(type) {}
+ : amount(amount), type(type) {
+    setId(id);
+ }
 
 // Getters
 double Transaction::getAmount() const {
@@ -31,15 +33,19 @@ bool Transaction::setType(char type) {
     return false;
 }
 
+void Transaction::setId(int id) {
+	if (id < 1) {
+        cerr << "Invalid Transaction ID\n";
+        return;
+    }
+    this->id= id;
+}
+
 void Transaction::printWithIndentation(int depth, ostream& out) const {
     string indent = string(depth * 2, ' ');
     out << indent << "Transaction ID: " << id << '\n';
     out << indent + "  " << "Amount: " << fixed << setprecision(2) << amount << '\n';
     out << indent + "  " << "Type: " << (type == 'D' ? "Debit" : "Credit") << '\n';
-}
-
-bool Transaction::operator<(const Transaction &other) const {
-    return this->id < other.id;
 }
 
 ostream& operator<<(ostream& out, const Transaction& trans) {
@@ -51,11 +57,20 @@ ostream& operator<<(ostream& out, const Transaction& trans) {
 
 
 istream& operator>>(istream &in, Transaction &trans) {
-    cout << "Enter transaction ID: ";
-	in >> trans.id;
+    int id;
+    do {
+        cout << "Enter transaction ID: ";
+        in >> id;
+    } while(id <= 0);
+    trans.id = id;
 
-	cout << "Enter transaction amount: ";
-	in >> trans.amount;
+    double amount;
+    do {
+	    cout << "Enter transaction amount: ";
+        in >> amount;
+    } while(amount < 0);
+    trans.amount = amount;
+
 
 	cout << "Enter transaction type (D for debit, C for credit): ";
 	char type;

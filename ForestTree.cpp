@@ -100,8 +100,6 @@ vector<ForestTree::nodePtr> ForestTree::searchAccountWithTracking(int accountNum
             currNode = currNode->sibling;
         }
     }
-    if (currNode == nullptr && behind == nullptr)
-        cerr << "Account not found!!\n";
     return { currNode, behind };
 }
 
@@ -123,7 +121,7 @@ void ForestTree::addAcountTransaction(const int accountNum, const Transaction & 
     vector<Account*> tracked;
     nodePtr currNode = searchAccountWithTracking(accountNum, tracked)[0];
     if (currNode == nullptr || currNode->data.getAccountNumber() != accountNum) {
-        cout << "Account not found!!\n";
+        cerr << "Account not found!!\n";
         return;
     }
     currNode->data.addTransaction(t);
@@ -149,7 +147,7 @@ void ForestTree::removeAccountTransaction(const int accountNum, const int transa
 
 bool ForestTree::buildTreeFromFile(const string &filePath) {
 
-    ifstream file(filePath + ".txt");
+    ifstream file(filePath + (filePath.find(".txt") != string::npos ? "" : ".txt"));
 
     if (!file.is_open()) {
         cerr << "Error: Could not open input file " << filePath << endl;
@@ -238,10 +236,9 @@ void ForestTree::printAccountRecursive(nodePtr node, int depth, ostream& out) co
 
 void ForestTree::printAccount(int accountNum) const {
     vector<nodePtr> res = searchAccountWithTracking(accountNum);
-    // cerr << "res: " << boolalpha << (res[0] != nullptr) << ", " << (res[1] != nullptr) << '\n';
  
     if (res[0] != nullptr && res[0]->data.getAccountNumber() == accountNum) {
-        string folderName = "Print results/";
+        string folderName = "Print_results/";
         if (!filesystem::exists(folderName)) {
             filesystem::create_directory(folderName);
         }
@@ -258,11 +255,11 @@ void ForestTree::printAccount(int accountNum) const {
 
 
 bool ForestTree::printTreeIntoFile(const string& fileName) {
-    string folderName = "Print results/";
+    string folderName = "Print_results/";
     if (!filesystem::exists(folderName)) {
         filesystem::create_directory(folderName);
     }
-    ofstream outFile(folderName + fileName + ".txt");
+    ofstream outFile(folderName + fileName + (fileName.find(".txt") != string::npos ? "" : ".txt"));
     if (!outFile.is_open()) {
         cerr << "Error: Unable to open file: " << fileName << endl;
         return false;
