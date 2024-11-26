@@ -217,14 +217,10 @@ void ForestTree::printAccountRecursive(nodePtr node, int depth, ostream& out) co
     out << string(depth * 2, '-') << "Description: " << description.substr(0, 10)<< '\n';
     out << string(depth * 2, '-') << "Balance: " << node->data.getBalance() << '\n';
     out << string(depth * 2, '-') << "Transactions:\n";
-    const vector<Transaction>& transactions = node->data.getTransactions();
-    if (transactions.empty()) {
-        out << string((depth + 1) * 2, ' ') << "No transactions\n";
-    } else {
-        for (const auto& transaction : transactions) {
-            out << string((depth + 1) * 2, ' ') << transaction << '\n';
-        }
-    }
+    
+    // Call the updated printTransactions
+    printTransactions(node->data.getTransactions(), depth + 1, out);
+    
     out << '\n';
     // recall function
     printAccountRecursive(node->child, depth + 1, out);
