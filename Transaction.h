@@ -13,6 +13,7 @@ class Transaction {
         char type;
 
     public:
+        Transaction();
         Transaction(int);
         Transaction(int, double, char);
 
@@ -20,6 +21,11 @@ class Transaction {
         double getAmount() const;
         char getType() const;
         int getId() const;
+
+        // Setters
+        bool setType(char);
+
+        void printWithIndentation(int, ostream &) const;
 
         // Operators
         bool operator<(const Transaction &) const; // used for sorting

@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream> // online gdb
 #include <math.h>
+#include <filesystem>
 #include "Account.h"
 
 using namespace std; // online gdb
@@ -22,8 +23,9 @@ class ForestTree {
     
     public:
         ForestTree();
-        void addAccount(const Account &);
-        void buildTreeFromFile(const string &);
+        bool addAccount(const Account &);
+        bool addAccount(int, const string, double);
+        bool buildTreeFromFile(const string &);
 
 
         vector<nodePtr> searchAccountWithTracking(int, vector<Account*> &) const;
@@ -39,6 +41,8 @@ class ForestTree {
 
         void printAccountRecursive(nodePtr, int, ostream &) const;
         void printAccount(int) const;
-        void printTreeIntoFile(const string &);
+        bool printTreeIntoFile(const string &);
         void printTreeRecursive(nodePtr, ostream &);
+
+        void printTransactions(const vector<Transaction> &, int, ostream &) const;
 };
